@@ -76,7 +76,7 @@ tribble(~ What, ~ When, ~ With, ~ Where, ~ Why,
 
 ```{r}
 tribble(~ Title, ~ Published, ~ Journal,  ~ Why, 
-  "Which Amazon Problem? Problem-constructions and Transnationalism in Brazilian Presidential Discourse since 1985 (with Livio Silva-Muller)", "Forthcoming", "Environmental Politics",
+  "Which Amazon Problem? Problem-constructions and Transnationalism in Brazilian Presidential Discourse since 1985 (with Livio Silva-Muller)", "Published online on 14 Jun 2023", "Environmental Politics",
   "This article investigates how the Amazon has been constructed as a problem in Brazilian presidential speeches since 1985. We develop a framework that accounts for how important transnational actors, as presidents, construct policy objects as particular problems depending on where and when they participate in politics
   \\begin{itemize}
      \\item Methods: We create a dataset containing 6240 official speeches by all Brazilian presidents since 1985. We train a supervised machine learning algorithim to classify how Amazon related sections within speeches construct the Amazon as a problem.
@@ -98,7 +98,7 @@ tribble(~ Title, ~ Published, ~ Journal,  ~ Why,
 tribble(~ Course, ~ Where, ~ Date, ~ Why, 
   "Fundamentals of R (co-lecturered with Livio Silva-Muller)",
   "The Graduate Institute of International and Development Studies (IHEID)",
-  "Fall 2022, Spring 2023 (ongoing)",
+  "Fall 2022, Spring 2023",
   "This course offers masters' students a hands on introduction to data science using the R programming language and software. We teach students how to import, transform, analyze, and visualize various types of data in R. To help students think through data, we show practical applications of R for the analysis of environment, finance, and conflict data.") %>% 
   detailed_entries(what = Where, with = Course, when = Date, why = Why, .protect = FALSE)
 ```
