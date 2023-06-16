@@ -19,10 +19,12 @@ output: html_document
 
 # **Henrique Sposito**
 
-PhD Candidate in International Relations and Political Science at The Geneva Graduate Institute and Research Assistant at the Center for International Environmental Studies.
-
-*I am a proactive, determined, and reliable individual with excellent teamwork skills. I hold a Brazilian and Italian nationality and a Swiss B
+- *I am a proactive, determined, and reliable individual with excellent teamwork skills. I hold a Brazilian and Italian nationality and a Swiss B
 permit. During my free time, I restore vintage bicycles.*
+
+- PhD Candidate in International Relations and Political Science at The Geneva Graduate Institute and Research Assistant at the Center for International Environmental Studies.
+
+- Check out my new research article title on [Which Amazon Problem? Problem-constructions and Transnationalism in Brazilian Presidential Discourse since 1985 (with Livio Silva-Muller)](https://www.tandfonline.com/doi/full/10.1080/09644016.2023.2220639)
 
 </div>
 <div class="col-sm-6">
