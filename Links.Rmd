@@ -3,7 +3,7 @@ title: "Bike for Friends"
 output: html_document
 ---
 
-# I reestore vintage bikes in my spare time!
+# I restore vintage bikes in my spare time!
 
 I have always ridden bikes and I have long been fascinated by how things work.
 

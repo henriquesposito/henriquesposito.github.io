@@ -19,8 +19,7 @@ output: html_document
 
 # **Henrique Sposito**
 
-- *I am a proactive, determined, and reliable individual with excellent teamwork skills. I hold a Brazilian and Italian nationality and a Swiss B
-permit. During my free time, I restore vintage bicycles.*
+- I am a proactive, determined, and reliable individual with excellent teamwork skills. I hold a Brazilian and Italian nationality and a Swiss B permit. During my free time, I restore vintage bicycles.
 
 - PhD Candidate in International Relations and Political Science at The Geneva Graduate Institute and Research Assistant at the Center for International Environmental Studies.
 
@@ -32,3 +31,5 @@ permit. During my free time, I restore vintage bicycles.*
 ![](images/picture.jpg)
 </a>
 </div>
+
+Contact: henrique.sposito@graduateinstitute.ch
