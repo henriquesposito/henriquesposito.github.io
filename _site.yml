@@ -1,11 +1,11 @@
-name: "MyLabJournal"
+name: "Henrique Sposito"
 navbar:
-  title: "MyLabJournal"
+  title: "Henrique Sposito"
   left:
-    - text: "Home"
+    - text: "About"
       href: index.html
-    - text: "Journal"
+    - text: "CV"
       href: Journal.html
-    - text: "Links"
+    - text: "Bike for Friends"
       href: Links.html
 output_dir: "docs"

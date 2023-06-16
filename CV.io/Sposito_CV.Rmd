@@ -1,0 +1,184 @@
+---
+name: Henrique
+surname: Sposito
+position: Researcher
+phone: +41 79 761 6863
+email: henrique.sposito@graduateinstitute.ch
+github: henriquesposito
+aboutme: I am a proactive, determined, and reliable individual with excellent teamwork skills. I hold a Brazilian and Italian nationality and a Swiss B permit. During my free time, I restore vintage bicycles.
+output: 
+  vitae::awesomecv:
+    page_total: true
+header-includes:
+- \usepackage{float}
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE,
+                      fig.pos = "H", out.extra = "")
+library(vitae)
+library(tibble)
+library(kableExtra)
+```
+
+# Profile
+
+ * Doctoral candidate in International Relations and Political Sciences at the Graduate Institute Geneva (IHEID)
+ * Research assistant at the Center of International Environment Studies (CIES)
+ * Interested in Political and Environmental Sociology, Text Analysis, Machine Learning, and Statistical Methods
+
+# Education
+
+```{r}
+tribble(~ Degree, ~ Year, ~ Institution, ~ Where, ~ Why,
+  "Doctorate in International Relations and Political Science", "Sep 2019 - Sep 2023 (expected)", "The Graduate Institute of International and Development Studies (IHEID)", "Geneva, Switzerland",
+  "GPA: 5.4/6
+  \\begin{itemize}
+     \\item Doctoral Project: 'Tell it how it is: Authenticity, setting, and urgency in political discourses' (Supervised by Dr. James Hollway and Dr. Yanina Welp)
+     \\item Core Courses: Doctoral Seminar; Survey Experiments; Social Networks; Statistics; Identity and Violence
+   \\end{itemize}",
+  "Masters in International Relations and Political Science", "Sep 2017 - Aug 2019",
+  "The Graduate Institute of International and Development Studies (IHEID)", "Geneva, Switzerland",
+  "GPA: 5.18/6
+   \\begin{itemize}
+     \\item Masters' Thesis: 'The Construction of a Migrant Crisis - The Venezuelan Migration to Brazil' (Supervised by Dr. Melanie Kolbe and Dr. Graziella Moraes Silva; Grade: 5.25)
+     \\item Core Courses: Research Design; Comparative Politics; Qualitative Methods; International Political Economy, Foreign Policy Analysis
+   \\end{itemize}",
+  "Bachelor of Arts in Political Science and Sociology (Double Degree) with a minor in Economics", "Jan 2013 - Jun 2017", "University of Alabama at Birmingham", "Birmingham, United States",
+  "GPA: 3.85/4
+   \\begin{itemize}
+     \\item Core Courses: Research in Political Science; International Sociology; Behavioral Economics; Social Statistics; Mind, Self and Society; Human Rights
+     \\item Recipient of 4 years of scholarship as a Student-Athlete for Soccer in a NCAA Division 1 University
+   \\end{itemize}") %>% 
+  detailed_entries(Degree, Year, Institution, Where, Why, .protect = FALSE)
+```
+
+# Selected Employment History
+
+```{r}
+tribble(~ What, ~ When, ~ With, ~ Where, ~ Why,
+        "Research Assistant", "Sep 2020 - Present", "Center for International Environmental Studies (CIES)", "Geneva, Switzerland",
+        "Assist with the theoretical, methodological, and empirical developments in data and analysis for across various domains of global governance in the project called 'Power and Networks and the Rate of Change in Institutional Complexes' (PANARCHIC), funded by the Swiss National Science Foundation (SNSF)
+        \\begin{itemize}
+        \\item Help develop data infrastructure and statistical methods in R, offered as an emsemble of R packages, for the gathering, consolidation, and analysis of global governance data.
+        \\item Train and manage Masters' research assistants to work with data colletion, R programming and package development, GitHub branching, and other theoretical and practical issues related to the project.
+        \\end{itemize}",
+        "Football Head Coach", "May 2018 - Aug 2020", "Intersoccer", "Geneva, Switzerland",
+        "Ensured a safe and constructive environment for participants, coaches, and parents while promoting the benefits of sports
+        \\begin{itemize}
+        \\item Supervised coaches and participants throughout activities to ensure their safety.
+        \\item Communicated with coaches, children, and parents to cordinate and solve logistical issues related to transportation, venue organization, and delivery of supplies, as well as any medical emergencies and other unexpected events that arose.
+        \\end{itemize}") %>% 
+  detailed_entries(What, When, With, Where, Why, .protect = FALSE)
+```
+
+# Publications
+
+```{r}
+tribble(~ Title, ~ Published, ~ Journal,  ~ Why, 
+  "Which Amazon Problem? Problem-constructions and Transnationalism in Brazilian Presidential Discourse since 1985 (with Livio Silva-Muller)", "Forthcoming", "Environmental Politics",
+  "This article investigates how the Amazon has been constructed as a problem in Brazilian presidential speeches since 1985. We develop a framework that accounts for how important transnational actors, as presidents, construct policy objects as particular problems depending on where and when they participate in politics
+  \\begin{itemize}
+     \\item Methods: We create a dataset containing 6240 official speeches by all Brazilian presidents since 1985. We train a supervised machine learning algorithim to classify how Amazon related sections within speeches construct the Amazon as a problem.
+     \\item Findings: We find that presidents often construct the Amazon as an environmental problem when speaking far away from the region, whereas they usually construct it as problems of economic integration or social development when in the Amazon.
+   \\end{itemize}",
+  "Performing Authenticity: Anti-political correctness as an authenticity performance in Brazil and the United States", "Under Review", "Political Behavior",
+  "This article argues that anti-PC discourses are one, of many, performances of authenticity in politics. A framework for identifying several discursive performances of authenticity in politics that focuses on displays (what), projections (who, when, and where), and mechanisms (how) is developed
+     \\begin{itemize} 
+     \\item Methods: Text analysis of thousands of campaign rallies, debates, interviews, and official speeches gathered for presidents and presidential candidates in Brazil and the United States since the 1980s.
+     \\item Findings: The analysis indicates that politicians usually perform different authenticities most when they are candidates or after having left office. As well, politicians often adapt to perform what audiences 'want to hear'.
+   \\end{itemize}") %>% 
+  detailed_entries(when = Published, with = Title, what = Journal, why = Why,
+                   .protect = FALSE)
+```
+
+# Teaching
+
+```{r}
+tribble(~ Course, ~ Where, ~ Date, ~ Why, 
+  "Fundamentals of R (co-lecturered with Livio Silva-Muller)",
+  "The Graduate Institute of International and Development Studies (IHEID)",
+  "Fall 2022, Spring 2023 (ongoing)",
+  "This course offers masters' students a hands on introduction to data science using the R programming language and software. We teach students how to import, transform, analyze, and visualize various types of data in R. To help students think through data, we show practical applications of R for the analysis of environment, finance, and conflict data.") %>% 
+  detailed_entries(what = Where, with = Course, when = Date, why = Why, .protect = FALSE)
+```
+
+# Selected Conference Presentations and Workshops
+
+```{r}
+# short version
+tribble(~ Title, ~ Conference, ~ Where, ~ Date, ~ Type, 
+  "How has the Brazilian Amazon been Constructed as a Problem? Presidential Speeches and Transnational Politics since 1985",
+  "The Graduate Institute of International and Development Studies (IHEID)",
+  "Geneva, Switzerland",
+  "27 October 2022",
+  "Center for International Environmental Studies (CIES) seminars",
+  "Anti-PC and Authenticity: Authenticity performances in politics in Brazil and the United States",
+  "American Sociological Association",
+  "Los Angeles, United States",
+  "6 August 2022",
+  "Regular session on the 'Party and its base: Understanding the relationship between political professionals and their audiences'",
+  "Performing Authenticity: Anti-Politically Correct Discourses in Brazil and the United
+States",
+  "Swiss Political Science Association",
+  "Online",
+  "4 February 2022",
+  "Workshop session on 'Liberal Ideology and Cultural Backlash'") %>% 
+  detailed_entries(what = Conference, with = Title, when = Date, where = Where, 
+                   why = Type, .protect = FALSE)
+# Longer version
+# tribble(~ Title, ~ Conference, ~ Where, ~ Date, ~ Type, 
+#   "How has the Brazilian Amazon been Constructed as a Problem? Presidential Speeches and Transnational Politics since 1985",
+#   "The Graduate Institute of International and Development Studies (IHEID)",
+#   "Geneva, Switzerland",
+#   "27 October 2022",
+#   "Center for International Environmental Studies (CIES) seminars",
+#   "Anti-PC and Authenticity: Authenticity performances in politics in Brazil and the United States",
+#   "American Sociological Association",
+#   "Los Angeles, United States",
+#   "6 August 2022",
+#   "Regular session on the 'Party and its base: Understanding the relationship between political professionals and their audiences'",
+#   "Amazonian Repertoires in Brazilian Presidential Discourse since 1985",
+#   "Latin American Studies Association",
+#   "Online",
+#   "6 May 2022",
+#   "Panel on the 'Forest Managements Conservation and Agricultural Production'",
+#   "Anti-Political Correctness and Authenticity: Authenticity performances in politics in Brazil and the United States",
+#   "Université de Lausanne",
+#   "Lausanne, Switzerland",
+#   "31 March 2022",
+#   "Lecture for the Research Group on Elections and Political Citizenship (GREC)",
+#   "Performing Authenticity: Anti-Politically Correct Discourses in Brazil and the United
+# States",
+#   "Swiss Political Science Association",
+#   "Online",
+#   "4 February 2022",
+#   "Workshop session on 'Liberal Ideology and Cultural Backlash'",
+#   "The Construction of a Migratory Crisis: The Venezuelan Migration to Brazil",
+#   "Latin American Studies Association",
+#   "Online",
+#   "15 May 2020",
+#   "Panel on 'Las distintas violencias de las migraciones'") %>% 
+#   detailed_entries(what = Conference, with = Title, when = Date, where = Where, 
+#                    why = Type, .protect = FALSE)
+```
+
+# Skills
+
+```{=latex}
+\begin{table}[tbh]
+\centering
+\begin{tabular}{cccll}
+\textbf{Languages} & \textbf{Programming languages} & \textbf{Markup languages} & \textit{} & \textit{} \\
+\multicolumn{1}{l}{}   & \multicolumn{1}{l}{}  & \multicolumn{1}{l}{} &  &  \\
+Portuguese (Native)    & R (Advanced)          & Markdown (Advanced) &  &  \\
+English (Fluent)       & Python (Intermediate) & LaTeX (Intermediate) &  &  \\
+French (Proficient)    & C (Intermidiate)      & HTML (Intermediate)  &  &  \\
+Spanish (Intermediate) & Bash (Basic)          & CSS (Intermidiate)   &  &  \\
+Italian (Intermediate) & Java (Basic)          &.                     &  &  \\
+                       &                       &                      &  & 
+\end{tabular}
+\end{table}
+```
+
+***References available upon request.***
