@@ -82,11 +82,11 @@ tribble(~ Title, ~ Published, ~ Journal,  ~ Why,
      \\item Methods: We create a dataset containing 6240 official speeches by all Brazilian presidents since 1985. We train a supervised machine learning algorithim to classify how Amazon related sections within speeches construct the Amazon as a problem.
      \\item Findings: We find that presidents often construct the Amazon as an environmental problem when speaking far away from the region, whereas they usually construct it as problems of economic integration or social development when in the Amazon.
    \\end{itemize}",
-  "Performing Authenticity: Anti-political correctness as an authenticity performance in Brazil and the United States", "Under Review", "Political Behavior",
-  "This article argues that anti-PC discourses are one, of many, performances of authenticity in politics. A framework for identifying several discursive performances of authenticity in politics that focuses on displays (what), projections (who, when, and where), and mechanisms (how) is developed
+  "Radiating Truthiness: Authenticity performances in politics in Brazil and the United States", "Under Review", "Political Studies",
+  "Political authenticity, as the perceived degree to which politicians appear to remain true to themselves, is connected to higher levels of political trust from electorates and can influence political outcomes. Yet, authenticity is frequently overlooked as a determinant factor for electoral behavior for being deemed vague, and, when considered, discussions of how authenticity appears and changes in politics usually remain at the theoretical level and are rarely comparative. This article develops an innovative framework to identify and compare how authenticity is performed in political discourses over time, across settings, and by politicians.
      \\begin{itemize} 
-     \\item Methods: Text analysis of thousands of campaign rallies, debates, interviews, and official speeches gathered for presidents and presidential candidates in Brazil and the United States since the 1980s.
-     \\item Findings: The analysis indicates that politicians usually perform different authenticities most when they are candidates or after having left office. As well, politicians often adapt to perform what audiences 'want to hear'.
+     \\item Methods: A total of 24,170 political texts from campaign rallies, debates, interviews, and official speeches for presidents and presidential candidates since the 1980s were scraped for Brazil and the United States, where authenticity in politics has drawn increased attention.
+     \\item Findings: The findings indicate that authenticity is not performed more frequently in election years.
    \\end{itemize}") %>% 
   detailed_entries(when = Published, with = Title, what = Journal, why = Why,
                    .protect = FALSE)
