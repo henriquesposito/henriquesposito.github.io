@@ -1,0 +1,100 @@
+---
+title: "R Packages"
+output: html_document
+---
+
+<html>
+  <style>
+  img {
+    max-width: 25%;
+    max-height:15%;
+    float: center;
+  }
+  </style>
+</html>
+
+<style type="text/css">
+h1.title {
+  font-size: 40px;
+  text-align: center;
+}
+</style>
+
+$$\\[0.1cm]$$
+</style>
+<div style="text-align: center">
+*I actively contribute to the development and maintenance of many R packages, below are a few of them:*
+</div>
+
+$$\\[0.1cm]$$
+
+</style>
+<div class="row" style="margin-left: 30px;">
+<div class="col-sm-6">
+- [messydates](https://globalgov.github.io/messydates/) an R package for Extended Date/Time Format (EDTF)
+</div>
+<div class="col-sm-6" style="margin-left: 0px;">
+<a href = "https://globalgov.github.io/messydates/">
+![](images/messydates_hexlogo.png)
+</a>
+</div>
+
+</style>
+<div class="row" style="margin-left: 0px;">
+<div class="col-sm-6">
+- [manydata](https://manydata.ch) an R portal for global governance data
+</div>
+<div class="col-sm-6" style="margin-left: 0px;">
+<a href = "https://globalgov.github.io/manydata/">
+![](images/manydataLogo.png)
+</a>
+</div>
+
+</style>
+<div class="row" style="margin-left: 0px;">
+<div class="col-sm-6">
+- [manynet](https://snlab-ch.github.io/manynet/) many ways to make, manipulate, and map myriad networks
+</div>
+<div class="col-sm-6" style="margin-left: 0px;">
+<a href = "https://snlab-ch.github.io/manynet/">
+![](images/logo_manynet.png)
+</a>
+</div>
+
+</style>
+<div class="row" style="margin-left: 0px;">
+<div class="col-sm-6">
+- [migraph](https://snlab-ch.github.io/migraph/) tools for multimodal and multilevel network analysis
+</div>
+<div class="col-sm-6" style="margin-left: 0px;">
+<a href = "https://snlab-ch.github.io/migraph/">
+![](images/logo_migraph.png)
+</a>
+</div>
+
+</style>
+<div class="row" style="margin-left: 0px;">
+<div class="col-sm-6">
+- [manypkgs](https://globalgov.github.io/manypkgs/) supports the creation of new many packages
+</div>
+<div class="col-sm-6" style="margin-left: 0px;">
+<a href = "https://globalgov.github.io/manypkgs/">
+![](images/manypkgslogo.png)
+</a>
+</div>
+
+</style>
+<div class="row" style="margin-left: 0px;">
+<div class="col-sm-6">
+- [poldis](https://github.com/henriquesposito/poldis) tools for analyzing political discourses in time
+</div>
+<div class="col-sm-6" style="margin-left: 0px;">
+<a href = "https://github.com/henriquesposito/poldis">
+![](images/poldishexlogo.png)
+</a>
+</div>
+
+</style>
+<div class="column" style="margin-left: 0px;">
+## [And much more!](https://github.com/henriquesposito)
+</div>

@@ -4,30 +4,24 @@ output: html_document
 ---
 
 <style type="text/css">
-.title {
-  display: none;
+h1.title {
+  font-size: 40px;
+  text-align: center;
 }
-
-#getting-started img {
-  margin-right: 10px;
-}
-
 </style>
 
-<div class="row" style="padding-top: 30px;">
-<div class="col-sm-6">
+$$\\[0.1cm]$$
 
-# **Henrique Sposito**
+<p class="text-center">I am currently a PhD candidate at the International Relations and Political Science Department at the Geneva Graduate Institute (IHEID). My dissertation leverages advanced text analysis techniques in R, such as Natural Language Processes (NLP) and supervised machine learning, to investigate how authenticity, problem construction, and urgency appear and change over time and across settings in discursive politics. I work as a Research Assistant in the "PANARCHIC: Power and Network and the Rate of Change in Institutional Complexes" project at the Center for International Environmental Studies (CIES). For the project, I develop, contribute, and help maintain several R packages that assist researchers dealing with multiple, overlapping, and uncertain datasets across various domains of global governance. During my free time, I restore vintage bikes.</p>
 
-I am currently a PhD candidate at the International Relations and Political Science Department at the Geneva Graduate Institute (IHEID). My dissertation leverages advanced text analysis techniques in R, such as Natural Language Processes (NLP) and supervised machine learning, to investigate how authenticity, problem construction, and urgency appear and change over time and across settings in discursive politics. I work as a Research Assistant in the "PANARCHIC: Power and Network and the Rate of Change in Institutional Complexes" project at the Center for International Environmental Studies (CIES). For the project, I develop, contribute, and help maintain several R packages that assist researchers dealing with multiple, overlapping, and uncertain datasets across various domains of global governance. During my free time, I restore vintage bikes.
+$$\\[0.1cm]$$
 
-*Check out my new research article on [Which Amazon Problem? Problem-constructions and Transnationalism in Brazilian Presidential Discourse since 1985 (with Livio Silva-Muller)](https://www.tandfonline.com/doi/full/10.1080/09644016.2023.2220639)*
+<p class="text-center">*Check out my new research article on [Which Amazon Problem? Problem-constructions and Transnationalism in Brazilian Presidential Discourse since 1985 (with Livio Silva-Muller)](https://www.tandfonline.com/doi/full/10.1080/09644016.2023.2220639)*</p>
 
-</div>
-<div class="col-sm-6">
+$$\\[0.1cm]$$
 
-![](images/picture.jpg)
-</a>
+<div class="text-center">
+  <img src="images/picture.jpg" class="rounded">
 </div>
 
-Contact: henrique.sposito@graduateinstitute.ch
+<p class="text-center">Contact: henrique.sposito@graduateinstitute.ch</p>

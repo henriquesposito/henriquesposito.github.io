@@ -1,11 +1,17 @@
 name: "Henrique Sposito"
 navbar:
-  title: "Henrique Sposito"
+  title: ""
   left:
     - text: "About"
       href: index.html
+    - text: "Publications"
+      href: publications.html
+    - text: "Courses"
+      href: courses.html
+    - text: "R Packages"
+      href: packages.html
     - text: "CV"
-      href: Journal.html
+      href: cv.html
     - text: "Bike for Friends"
-      href: Links.html
+      href: bff.html
 output_dir: "docs"
