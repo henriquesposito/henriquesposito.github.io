@@ -7,7 +7,6 @@ email: henrique.sposito@graduateinstitute.ch
 website: henriquesposito.com
 github: henriquesposito
 twitter: rickysposito
-aboutme: I am a proactive, determined, and reliable individual with excellent teamwork skills. I hold a Brazilian and Italian nationality and a Swiss B permit. During my free time, I restore vintage bicycles.
 headcolor: "556B2F"
 output:
   vitae::awesomecv:
@@ -26,9 +25,7 @@ library(kableExtra)
 
 # Profile
 
- * Doctoral candidate in International Relations and Political Sciences at the Graduate Institute Geneva (IHEID)
- * Research assistant at the Center of International Environment Studies (CIES)
- * Interested in Political and Environmental Sociology, Text Analysis, Machine Learning, and Statistical Methods
+I am currently a PhD candidate at the International Relations and Political Science Department at the Geneva Graduate Institute (IHEID). My dissertation leverages advanced text analysis techniques in R, such as Natural Language Processes (NLP) and supervised machine learning, to investigate how authenticity, problem construction, and urgency appear and change over time and across settings in discursive politics. I work as a Research Assistant in the "PANARCHIC: Power and Network and the Rate of Change in Institutional Complexes" project held at the Center for International Environmental Studies (CIES). For the project, I develop, contribute, and help maintain several R packages that assist researchers dealing with multiple, overlapping, and uncertain datasets across various domains of global governance. During my free time, I restore vintage bikes.
 
 # Education
 
@@ -65,9 +62,9 @@ tribble(~ What, ~ When, ~ With, ~ Where, ~ Why,
         \\begin{itemize}
         \\item Help develop data infrastructure and statistical methods in R, offered as an emsemble of R packages, for the gathering, consolidation, and analysis of global governance data.
         \\item Train and manage Masters' research assistants to work with data colletion, R programming and package development, GitHub branching, and other theoretical and practical issues related to the project.
-        \\end{itemize}") %>% 
+        \\end{itemize}") %>%
   detailed_entries(What, When, With, Where, Why, .protect = FALSE)
-##long version
+# #long version
 # tribble(~ What, ~ When, ~ With, ~ Where, ~ Why,
 #         "Research Assistant", "Sep 2020 - Present", "Center for International Environmental Studies (CIES)", "Geneva, Switzerland",
 #         "Assist with the theoretical, methodological, and empirical developments in data and analysis for across various domains of global governance in the project called 'Power and Networks and the Rate of Change in Institutional Complexes' (PANARCHIC), funded by the Swiss National Science Foundation (SNSF)
@@ -80,8 +77,23 @@ tribble(~ What, ~ When, ~ With, ~ Where, ~ Why,
 #         \\begin{itemize}
 #         \\item Supervised coaches and participants throughout activities to ensure their safety.
 #         \\item Communicated with coaches, children, and parents to cordinate and solve logistical issues related to transportation, venue organization, and delivery of supplies, as well as any medical emergencies and other unexpected events that arose.
-#         \\end{itemize}") %>% 
+#         \\end{itemize}") %>%
 #   detailed_entries(What, When, With, Where, Why, .protect = FALSE)
+```
+
+# Teaching
+
+```{r}
+tribble(~ Course, ~ Where, ~ Date, ~ Why, 
+  "Fundamentals of R (co-lecturered with Livio Silva-Muller)",
+  "The Graduate Institute of International and Development Studies (IHEID)",
+  "Fall 2022, Spring 2023, Fall 2023",
+  "This course offers masters' students a hands on introduction to data science using the R programming language and software. We teach students how to import, transform, analyze, and visualize various types of data in R. To help students think through data, we show practical applications of R for the analysis of environment, finance, and conflict data.",
+  "Intermediate R for Social Science Research",
+  "The Graduate Institute of International and Development Studies (IHEID)",
+  "Fall 2023",
+  "This course offers masters' students an applied overview of various research methods using R. Students learn how to write, cite, and include table and figures using R Markdown; how to select and carry-on different types of statistical modeling; how to work with unsupervised approaches for text analysis; and how to code, visualize, and model network data.") %>% 
+  detailed_entries(what = Where, with = Course, when = Date, why = Why, .protect = FALSE)
 ```
 
 # Publications
@@ -102,21 +114,6 @@ tribble(~ Title, ~ Published, ~ Journal,  ~ Why,
    \\end{itemize}") %>% 
   detailed_entries(when = Published, with = Title, what = Journal, why = Why,
                    .protect = FALSE)
-```
-
-# Teaching
-
-```{r}
-tribble(~ Course, ~ Where, ~ Date, ~ Why, 
-  "Fundamentals of R (co-lecturered with Livio Silva-Muller)",
-  "The Graduate Institute of International and Development Studies (IHEID)",
-  "Fall 2022, Spring 2023, Fall 2023",
-  "This course offers masters' students a hands on introduction to data science using the R programming language and software. We teach students how to import, transform, analyze, and visualize various types of data in R. To help students think through data, we show practical applications of R for the analysis of environment, finance, and conflict data.",
-  "Intermediate R for Social Science Research",
-  "The Graduate Institute of International and Development Studies (IHEID)",
-  "Fall 2023",
-  "This course offers masters' students an applied overview of various research methods using R. Students learn how to write, cite, and include table and figures using R Markdown; how to select and carry-on different types of statistical modeling; how to work with unsupervised approaches for text analysis; and how to code, visualize, and model network data.") %>% 
-  detailed_entries(what = Where, with = Course, when = Date, why = Why, .protect = FALSE)
 ```
 
 # Selected Conference Presentations and Invited Talks
@@ -179,6 +176,8 @@ States",
                    why = Type, .protect = FALSE)
 ```
 
+\newpage
+
 # Skills
 
 ```{=latex}
@@ -186,13 +185,13 @@ States",
 \centering
 \begin{tabular}{cccll}
 \textbf{Languages} & \textbf{Programming languages} & \textbf{Markup languages} & \textit{} & \textit{} \\
-\multicolumn{1}{l}{}   & \multicolumn{1}{l}{}  & \multicolumn{1}{l}{} &  &  \\
-Portuguese (Native)    & R (Advanced)          & Markdown (Advanced)  &  &  \\
-English (Fluent)       & Python (Intermediate) & LaTeX (Intermediate) &  &  \\
-French (Proficient)    & C (Basic)             & HTML (Intermediate)  &  &  \\
-Spanish (Intermediate) & Bash (Basic)          & CSS (Intermidiate)   &  &  \\
-Italian (Intermediate) & Java (Basic)          & XML(Basic)           &  &  \\
-                       &                       &                      &  & 
+\multicolumn{1}{l}{}   & \multicolumn{1}{l}{}  & \multicolumn{1}{l}{}  &  &  \\
+Portuguese (Native)    & R (Proficient)        & Markdown (Proficient) &  &  \\
+English (Fluent)       & Python (Intermediate) & LaTeX (Advanced)      &  &  \\
+French (Advanced)      & C (Basic)             & HTML (Advanced)       &  &  \\
+Italian (Intermidiate) & Bash (Basic)          & CSS (Advanced)        &  &  \\
+Spanish (Basic)        & Java (Basic)          & XML (Basic)           &  &  \\
+                       &                       &                       &  & 
 \end{tabular}
 \end{table}
 ```
