@@ -48,7 +48,7 @@ tribble(~ Degree, ~ Year, ~ Institution, ~ Where, ~ Why,
   "GPA: 3.85/4
    \\begin{itemize}
      \\item Core Courses: Research in Political Science; International Sociology; Behavioral Economics; Social Statistics; Mind, Self and Society; Human Rights
-     \\item Recipient of 4 years of scholarship as a Student-Athlete for Soccer in a NCAA Division 1 University
+     \\item Awarded 4 years of scholarship as a Student-Athlete for Soccer in a NCAA Division 1 University
    \\end{itemize}") %>% 
   detailed_entries(Degree, Year, Institution, Where, Why, .protect = FALSE)
 ```
@@ -56,30 +56,32 @@ tribble(~ Degree, ~ Year, ~ Institution, ~ Where, ~ Why,
 # Selected Employment History
 
 ```{r}
-tribble(~ What, ~ When, ~ With, ~ Where, ~ Why,
-        "Research Assistant", "Sep 2020 - Present", "Center for International Environmental Studies (CIES)", "Geneva, Switzerland",
-        "Assist with the theoretical, methodological, and empirical developments in data and analysis for across various domains of global governance in the project called 'Power and Networks and the Rate of Change in Institutional Complexes' (PANARCHIC), funded by the Swiss National Science Foundation (SNSF)
-        \\begin{itemize}
-        \\item Help develop data infrastructure and statistical methods in R, offered as an emsemble of R packages, for the gathering, consolidation, and analysis of global governance data.
-        \\item Train and manage Masters' research assistants to work with data colletion, R programming and package development, GitHub branching, and other theoretical and practical issues related to the project.
-        \\end{itemize}") %>%
-  detailed_entries(What, When, With, Where, Why, .protect = FALSE)
-# #long version
 # tribble(~ What, ~ When, ~ With, ~ Where, ~ Why,
 #         "Research Assistant", "Sep 2020 - Present", "Center for International Environmental Studies (CIES)", "Geneva, Switzerland",
 #         "Assist with the theoretical, methodological, and empirical developments in data and analysis for across various domains of global governance in the project called 'Power and Networks and the Rate of Change in Institutional Complexes' (PANARCHIC), funded by the Swiss National Science Foundation (SNSF)
 #         \\begin{itemize}
 #         \\item Help develop data infrastructure and statistical methods in R, offered as an emsemble of R packages, for the gathering, consolidation, and analysis of global governance data.
 #         \\item Train and manage Masters' research assistants to work with data colletion, R programming and package development, GitHub branching, and other theoretical and practical issues related to the project.
-#         \\end{itemize}",
-#         "Football Head Coach", "May 2018 - Aug 2020", "Intersoccer", "Geneva, Switzerland",
-#         "Ensured a safe and constructive environment for participants, coaches, and parents while promoting the benefits of sports
-#         \\begin{itemize}
-#         \\item Supervised coaches and participants throughout activities to ensure their safety.
-#         \\item Communicated with coaches, children, and parents to cordinate and solve logistical issues related to transportation, venue organization, and delivery of supplies, as well as any medical emergencies and other unexpected events that arose.
 #         \\end{itemize}") %>%
 #   detailed_entries(What, When, With, Where, Why, .protect = FALSE)
+# #long version
+tribble(~ What, ~ When, ~ With, ~ Where, ~ Why,
+        "Research Assistant", "Sep 2020 - Present", "Center for International Environmental Studies (CIES)", "Geneva, Switzerland",
+        "Assist with the theoretical, methodological, and empirical developments in data and analysis for across various domains of global governance in the project called 'Power and Networks and the Rate of Change in Institutional Complexes' (PANARCHIC), funded by the Swiss National Science Foundation (SNSF)
+        \\begin{itemize}
+        \\item Help develop data infrastructure and statistical methods in R, offered as an emsemble of R packages, for the gathering, consolidation, and analysis of global governance data.
+        \\item Train and manage Masters' research assistants to work with data colletion, R programming and package development, GitHub branching, and other theoretical and practical issues related to the project.
+        \\end{itemize}",
+        "Football Head Coach", "May 2018 - Aug 2020", "Intersoccer", "Geneva, Switzerland",
+        "Ensured a safe and constructive environment for participants, coaches, and parents while promoting the benefits of sports
+        \\begin{itemize}
+        \\item Supervised coaches and participants throughout activities to ensure their safety.
+        \\item Communicated with coaches, children, and parents to cordinate and solve logistical issues related to transportation, venue organization, and delivery of supplies, as well as any medical emergencies and other unexpected events that arose.
+        \\end{itemize}") %>%
+  detailed_entries(What, When, With, Where, Why, .protect = FALSE)
 ```
+
+\newpage
 
 # Teaching
 
@@ -175,8 +177,6 @@ States",
   detailed_entries(what = Conference, with = Title, when = Date, where = Where,
                    why = Type, .protect = FALSE)
 ```
-
-\newpage
 
 # Skills
 
