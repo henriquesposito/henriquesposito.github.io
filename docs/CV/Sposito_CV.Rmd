@@ -2,11 +2,11 @@
 name: Henrique
 surname: Sposito
 position: Researcher
-phone: +41 79 761 6863
+about: ""
 email: henrique.sposito@graduateinstitute.ch
-website: henriquesposito.com
 github: henriquesposito
 twitter: rickysposito
+www: henriquesposito.com
 headcolor: "556B2F"
 output:
   vitae::awesomecv:
@@ -25,7 +25,7 @@ library(kableExtra)
 
 # Profile
 
-I am currently a PhD candidate at the International Relations and Political Science Department at the Geneva Graduate Institute (IHEID). My dissertation leverages advanced text analysis techniques in R, such as Natural Language Processes (NLP) and supervised machine learning, to investigate how authenticity, problem construction, and urgency appear and change over time and across settings in discursive politics. I work as a Research Assistant in the "PANARCHIC: Power and Network and the Rate of Change in Institutional Complexes" project held at the Center for International Environmental Studies (CIES). For the project, I develop, contribute, and help maintain several R packages that assist researchers dealing with multiple, overlapping, and uncertain datasets across various domains of global governance. During my free time, I restore vintage bikes.
+I am currently a PhD candidate at the International Relations and Political Science Department at the Geneva Graduate Institute (IHEID). My dissertation leverages advanced text analysis techniques in R, such as supervised machine learning, to investigate how authenticity, problem construction, and urgency appear and change over time and across settings in discursive politics. I also work as a Research Assistant in the "PANARCHIC: Power and Network and the Rate of Change in Institutional Complexes" project held at the Center for International Environmental Studies (CIES). For the project, I develop, contribute, and help maintain several R packages that assist researchers dealing with multiple, overlapping, and uncertain datasets across various domains of global governance. During my free time, I restore vintage bikes.
 
 # Education
 
@@ -34,7 +34,7 @@ tribble(~ Degree, ~ Year, ~ Institution, ~ Where, ~ Why,
   "Doctorate in International Relations and Political Science", "Sep 2019 - Sep 2023 (expected)", "The Graduate Institute of International and Development Studies (IHEID)", "Geneva, Switzerland",
   "GPA: 5.4/6
   \\begin{itemize}
-     \\item Doctoral Project: 'Tell it how it is: Authenticity, setting, and urgency in political discourses' (Supervised by Dr. James Hollway and Dr. Yanina Welp)
+     \\item Doctoral Project: 'Authenticity, problem construction, and urgency in political discourses' (Supervised by Dr. James Hollway and Dr. Yanina Welp)
      \\item Core Courses: Doctoral Seminar; Survey Experiments; Social Networks; Statistics; Identity and Violence
    \\end{itemize}",
   "Masters in International Relations and Political Science", "Sep 2017 - Aug 2019",
@@ -48,7 +48,7 @@ tribble(~ Degree, ~ Year, ~ Institution, ~ Where, ~ Why,
   "GPA: 3.85/4
    \\begin{itemize}
      \\item Core Courses: Research in Political Science; International Sociology; Behavioral Economics; Social Statistics; Mind, Self and Society; Human Rights
-     \\item Awarded 4 years of scholarship as a Student-Athlete for Soccer in a NCAA Division 1 University
+     \\item Awards: Recipient of 4 years of scholarship as a Student-Athlete for Soccer in a NCAA Division 1 University
    \\end{itemize}") %>% 
   detailed_entries(Degree, Year, Institution, Where, Why, .protect = FALSE)
 ```
@@ -67,10 +67,10 @@ tribble(~ Degree, ~ Year, ~ Institution, ~ Where, ~ Why,
 # #long version
 tribble(~ What, ~ When, ~ With, ~ Where, ~ Why,
         "Research Assistant", "Sep 2020 - Present", "Center for International Environmental Studies (CIES)", "Geneva, Switzerland",
-        "Assist with the theoretical, methodological, and empirical developments in data and analysis for across various domains of global governance in the project called 'Power and Networks and the Rate of Change in Institutional Complexes' (PANARCHIC), funded by the Swiss National Science Foundation (SNSF)
+        "Assist with the theoretical, methodological, and empirical developments in data and analysis for across various domains of global governance in the 'PANARCHIC: Power and Networks and the Rate of Change in Institutional Complexes' project funded by the Swiss National Science Foundation (SNSF)
         \\begin{itemize}
         \\item Help develop data infrastructure and statistical methods in R, offered as an emsemble of R packages, for the gathering, consolidation, and analysis of global governance data.
-        \\item Train and manage Masters' research assistants to work with data colletion, R programming and package development, GitHub branching, and other theoretical and practical issues related to the project.
+        \\item Train and manage other research assistants to work with data colletion, R programming, package development, GitHub branching, and other theoretical and practical issues related to the project.
         \\end{itemize}",
         "Football Head Coach", "May 2018 - Aug 2020", "Intersoccer", "Geneva, Switzerland",
         "Ensured a safe and constructive environment for participants, coaches, and parents while promoting the benefits of sports
@@ -95,7 +95,7 @@ tribble(~ Course, ~ Where, ~ Date, ~ Why,
   "The Graduate Institute of International and Development Studies (IHEID)",
   "Fall 2023 (upcoming)",
   "This course offers masters' students an applied overview of various research methods using R. Students learn how to write, cite, and include table and figures using R Markdown; how to select and carry-on different types of statistical modeling; how to work with unsupervised approaches for text analysis; and how to code, visualize, and model network data.") %>% 
-  detailed_entries(what = Where, with = Course, when = Date, why = Why, .protect = FALSE)
+  detailed_entries(what = Where, with = Course, where = Date, why = Why, .protect = FALSE)
 ```
 
 # Publications
@@ -113,10 +113,18 @@ tribble(~ Title, ~ Published, ~ Journal,  ~ Why,
      \\begin{itemize} 
      \\item Methods: A total of 24,170 political texts from campaign rallies, debates, interviews, and official speeches for presidents and presidential candidates since the 1980s were scraped for Brazil and the United States, where authenticity in politics has drawn increased attention.
      \\item Findings: The findings indicate that authenticity is not performed more frequently in election years.
-   \\end{itemize}") %>% 
-  detailed_entries(when = Published, with = Title, what = Journal, why = Why,
+   \\end{itemize}",
+  "Managing imprecise dates in R with messydates (with James Holway)",
+  "", "Working Paper",
+  "Dates are often messy. Whether historical (or ancient), future, or even recent, we sometimes only know approximately when an event occurred, that it happened within a particular period, or sources offer multiple competing dates. Although researchers generally recognize this messiness, many feel expected to force artificial precision or unfortunate imprecision on temporal data to proceed with analysis. However, this can create inferential issues when timing or sequence is important. This paper introduces the messydates R package that assists researchers with this problem by retaining and working with various kinds of date imprecision.",
+  "It is urgent that we look at urgency in politics",
+  "", "Working Paper",
+  "Some scholars have argued that certain politicians sell fear, rather than hope, in political discourses. “Fear politics” embed individual and collective anxieties in discourses to defend change, or continuity, of certain political pathways against “negative” futures. Whereas “hope politics”, instead, indicate an affirmative attitude towards possible future as to justify change or reassure all will be. Both fear and hope in political discourses relate to change and continuity in constructing past(s), present(s), and future(s). By asking how discourses that “sell” fear or hope work, we can grasp with how, when, and where politicians argue for change and/or continuity when doing politics. In this article, I argue that understanding political discourses of change and continuity as performances of urgency provides an alternative approach to investigating and comparing politics over time and across spaces. I also develop a new framework and methods to study discursive performances of change and continuity in politics, namely urgency analysis.") %>% 
+  detailed_entries(where = Published, with = Title, what = Journal, why = Why,
                    .protect = FALSE)
 ```
+
+\newpage
 
 # Selected Conference Presentations and Invited Talks
 
@@ -188,8 +196,8 @@ States",
 \multicolumn{1}{l}{}   & \multicolumn{1}{l}{}  & \multicolumn{1}{l}{}  &  &  \\
 Portuguese (Native)    & R (Proficient)        & Markdown (Proficient) &  &  \\
 English (Fluent)       & Python (Intermediate) & LaTeX (Advanced)      &  &  \\
-French (Advanced)      & C (Basic)             & HTML (Advanced)       &  &  \\
-Italian (Intermidiate) & Bash (Basic)          & CSS (Advanced)        &  &  \\
+French (Proficient)    & C (Basic)             & HTML (Advanced)       &  &  \\
+Italian (Intermidiate) & Bash (Basic)          & CSS (Intermidiate)    &  &  \\
 Spanish (Basic)        & Java (Basic)          & XML (Basic)           &  &  \\
                        &                       &                       &  & 
 \end{tabular}

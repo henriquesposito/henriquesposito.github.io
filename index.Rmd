@@ -24,4 +24,6 @@ $$\\[0.1cm]$$
   <img src="images/picture.jpg" class="rounded">
 </div>
 
+$$\\[0.1cm]$$
+
 <p class="text-center">Contact: henrique.sposito@graduateinstitute.ch</p>
