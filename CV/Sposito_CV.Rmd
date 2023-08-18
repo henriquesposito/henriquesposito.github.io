@@ -12,7 +12,7 @@ output:
   vitae::awesomecv:
     page_total: true
 header-includes:
-- \usepackage{float}
+- \geometry{top=1.75cm}
 ---
 
 ```{r setup, include=FALSE}
@@ -82,11 +82,11 @@ tribble(~ What, ~ When, ~ With, ~ Where, ~ Why,
 tribble(~ Title, ~ Published, ~ Journal, 
   "Which Amazon Problem? Problem-constructions and Transnationalism in Brazilian Presidential Discourse since 1985 (with Livio Silva-Muller)",
   "\\href{https://www.tandfonline.com/doi/full/10.1080/09644016.2023.2220639}{DOI: 10.1080/09644016.2023.2220639}", "Environmental Politics",
-  "Radiating Truthiness: Authenticity performances in politics in Brazil and the United States", "Under Review", "Political Studies",
+  "Radiating Truthiness: Authenticity performances in politics in Brazil and the United States", "Under Review in Political Studies", "",
   "Managing imprecise dates in R with messydates (with James Hollway)",
-  "", "Working Paper",
+  "Working Paper", "",
   "It is urgent that we look at urgency in politics",
-  "", "Working Paper") %>% 
+  "Working Paper", "") %>% 
   detailed_entries(where = Journal, with = Title, what = Published,
                    .protect = FALSE)
 ```
@@ -109,7 +109,7 @@ tribble(~ Course, ~ Where, ~ Date, ~ Why,
   detailed_entries(what = Where, with = Course, where = Date, why = Why, .protect = FALSE)
 ```
 
-# Selected Conference Presentations
+# Conference Presentations
 
 ```{r}
 tribble(~ Title, ~ Conference, ~ Where, ~ Date, ~ Type,
@@ -145,12 +145,12 @@ tribble(~ Title, ~ Talk, ~ Where, ~ Date, ~ Type,
   "How has the Brazilian Amazon been Constructed as a Problem? Presidential Speeches and Transnational Politics since 1985",
   "The Graduate Institute of International and Development Studies (IHEID)",
   "Geneva, Switzerland",
-  "27 October 2022",
+  "October 2022",
   "Invited talk at the Center for International Environmental Studies (CIES) Seminar",
   "Anti-Political Correctness and Authenticity: Authenticity performances in politics in Brazil and the United States",
   "Université de Lausanne",
   "Lausanne, Switzerland",
-  "31 March 2022",
+  "March 2022",
   "Invited talk for the Research Group on Elections and Political Citizenship (GREC)") %>%
   detailed_entries(what = Talk, with = Title, when = Date, where = Where,
                    why = Type, .protect = FALSE)
@@ -188,7 +188,7 @@ tribble(~ Name, ~ Purpose, ~ Status,
                    .protect = FALSE)
 ```
 
-# Honors
+# Awards and Honors
 
 - UAB Presidential Honors List 2013, 2015, 2016 and 2017.
 - Conference USA Academic Honor Medal (2015)

@@ -20,7 +20,7 @@ h1.title {
 </style>
 
 ```{r setup, include=FALSE}
-knitr::opts_chunk$set(message=FALSE,warning=FALSE, cache=TRUE)
+knitr::opts_chunk$set(message=FALSE, warning=FALSE, cache=TRUE)
 ```
 
 ![](CV/Sposito_CV.pdf){width=100% height=1000}.
