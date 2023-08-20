@@ -33,19 +33,19 @@ My research leverages advanced text analysis techniques, such as supervised mach
 
 ```{r}
 tribble(~ Degree, ~ Year, ~ Institution, ~ Where, ~ Why,
-  "Doctorate in International Relations and Political Science",
-  "Sep 2019 -  2024",
+  "PhD in International Relations and Political Science",
+  "Sep 2019 - 2024 (expected)",
   "The Graduate Institute of International and Development Studies (IHEID)", 
   "Geneva, Switzerland",
-  "\\textit{Doctoral Project:} 'Authenticity, problem construction, and urgency in political discourses' \\\\ Supervised by Dr. James Hollway and Dr. Yanina Welp
-  \\item \\textit{Core Courses:} Doctoral Seminar; Survey Experiments; Social Networks; Statistics; Identity and Violence",
+  "Doctoral Project: 'Authenticity, problem construction, and urgency in political discourses' \\\\ Supervised by Dr. James Hollway and Dr. Yanina Welp
+  \\item Core Courses: Doctoral Seminar; Survey Experiments; Social Networks; Statistics; Identity and Violence",
   "Masters in International Relations and Political Science",
   "Sep 2017 - Aug 2019",
   "The Graduate Institute of International and Development Studies (IHEID)",
   "Geneva, Switzerland",
-  "\\textit{Masters' Thesis:} 'The Construction of a Migrant Crisis - The Venezuelan Migration to Brazil' \\\\ Supervised by Dr. Melanie Kolbe and Dr. Graziella Moraes Silva",
-  "Bachelor of Arts in Political Science and Sociology (Double Degree) with a minor in Economics", "Jan 2013 - Jun 2017", "University of Alabama at Birmingham", "Birmingham, United States",
-  "\\textit{Awards:} Recipient of 4 years of scholarship as a Student-Athlete for Soccer in a NCAA Division 1 University") %>% 
+  "Masters' Thesis: 'The Construction of a Migrant Crisis - The Venezuelan Migration to Brazil' \\\\ Supervised by Dr. Melanie Kolbe and Dr. Graziella Moraes Silva",
+  "Bachelor of Arts in Political Science and Sociology (Double Degree)", "Jan 2013 - Jun 2017", "University of Alabama at Birmingham", "Birmingham, United States",
+  "Recipient of 4 years of scholarship as a Student-Athlete for Soccer in a NCAA Division 1 University") %>% 
   detailed_entries(Institution, Year, Degree, Where, Why, .protect = FALSE)
 ```
 
@@ -79,15 +79,15 @@ tribble(~ What, ~ When, ~ With, ~ Where, ~ Why,
 # Publications and Working Papers
 
 ```{r}
-tribble(~ Title, ~ Published, ~ Journal, 
-  "Which Amazon Problem? Problem-constructions and Transnationalism in Brazilian Presidential Discourse since 1985 (with Livio Silva-Muller)",
-  "\\href{https://www.tandfonline.com/doi/full/10.1080/09644016.2023.2220639}{DOI: 10.1080/09644016.2023.2220639}", "Environmental Politics",
-  "Radiating Truthiness: Authenticity performances in politics in Brazil and the United States", "Under Review in Political Studies", "",
+tribble(~ Title, ~ Published, ~ Journal, ~ When,
+  "\\href{https://www.tandfonline.com/doi/full/10.1080/09644016.2023.2220639}{Which Amazon Problem? Problem-constructions and Transnationalism in Brazilian Presidential Discourse since 1985 (with Livio Silva-Muller)}",
+  "\\href{https://www.tandfonline.com/doi/full/10.1080/09644016.2023.2220639}{DOI: 10.1080/09644016.2023.2220639}", "Environmental Politics", "June 2023",
+  "Radiating Truthiness: Authenticity performances in politics in Brazil and the United States", "Under Review in Political Studies", "", "",
   "Managing imprecise dates in R with messydates (with James Hollway)",
-  "Working Paper", "",
-  "It is urgent that we look at urgency in politics",
-  "Working Paper", "") %>% 
-  detailed_entries(where = Journal, with = Title, what = Published,
+  "Working Paper", "", "",
+  "It is urgent that we look at urgency in politics: An introduction to urgency analysis",
+  "Working Paper", "", "") %>% 
+  detailed_entries(where = Journal, with = Title, what = Published, when = When,
                    .protect = FALSE)
 ```
 
@@ -98,7 +98,7 @@ tribble(~ Course, ~ Where, ~ Date, ~ Why,
   "Fundamentals of R (co-lecturered with Livio Silva-Muller)",
   "The Graduate Institute of International and Development Studies (IHEID)",
   "Fall 2022, Spring 2023, Fall 2023",
-  "Provides a hands on introduction to data science using the R programming language and software
+  "Provides a hands-on introduction to data science using the R programming language and software
   \\item Teaches students how to import, transform, analyze, and visualize various types of data in R
   \\item Demonstrates practical applications of R for the analysis of environment, finance, and conflict data",
   "Intermediate R for Social Science Research",
@@ -161,36 +161,36 @@ tribble(~ Title, ~ Talk, ~ Where, ~ Date, ~ Type,
 ```{r}
 tribble(~ Name, ~ Purpose, ~ Status,
         "\\href{https://manydata.ch/}{manydata}",
-        "An R portal for global governance data",
+        "\\href{https://manydata.ch/}{An R portal for global governance data}",
         "Contributor",
         "\\href{https://globalgov.github.io/messydates/}{messydates}",
-        "An R package for Extended Date/Time Format (EDTF)",
+        "\\href{https://globalgov.github.io/messydates/}{An R package for Extended Date/Time Format (EDTF)}",
         "Contributor",
         "\\href{https://snlab-ch.github.io/manynet/}{manynet}",
-        "An R package to make, manipulate, and map myriad networks",
+        "\\href{https://snlab-ch.github.io/manynet/}{An R package to make, manipulate, and map myriad networks}",
         "Contributor",
         "\\href{https://snlab-ch.github.io/migraph/}{migraph}",
-        "An R package with tools for multimodal and multilevel network analysis", 
+        "\\href{https://snlab-ch.github.io/migraph/}{An R package with tools for multimodal and multilevel network analysis}", 
         "Contributor",
         "\\href{https://globalgov.github.io/manypkgs/}{manypkgs}",
-        "An R package to support the creation of new many packages",
+        "\\href{https://globalgov.github.io/manypkgs/}{An R package to support the creation of new many packages}",
         "Contributor",
         "\\href{https://globalgov.github.io/manyenviron/}{manyenviron}",
-        "An R data package on environmental agreements",
+        "\\href{https://globalgov.github.io/manyenviron/}{An R data package on environmental agreements}",
         "Contributor",
         "\\href{https://globalgov.github.io/manystates/}{manystates}",
-        "An R data package on sovereign states",
+        "\\href{https://globalgov.github.io/manystates/}{An R data package on sovereign states}",
         "Contributor",
         "\\href{https://github.com/henriquesposito/poldis}{poldis}",
-        "An R package with tools for analyzing political discourses over time", 
+        "\\href{https://github.com/henriquesposito/poldis}{An R package with tools for analyzing political discourses over time}", 
         "Author") %>%
-  detailed_entries(what = Purpose, with = Name, when = Status,
+  detailed_entries(what = Purpose, with = Name, where = Status,
                    .protect = FALSE)
 ```
 
 # Awards and Honors
 
-- UAB Presidential Honors List 2013, 2015, 2016 and 2017.
+- UAB Presidential Honors List 2013, 2015, 2016 and 2017
 - Conference USA Academic Honor Medal (2015)
 - National Soccer Coaches Association of America NCAA Scholar All-South Region Team (2016)
 - Conference USA Commissioner's Honor Roll (2013 – 2016)
@@ -199,31 +199,37 @@ tribble(~ Name, ~ Purpose, ~ Status,
 
 # Skills
 
-```{=latex}
-\begin{table}[tbh]
-\centering
-\begin{tabular}{cccll}
-\textbf{Languages} & \textbf{Programming languages} & \textbf{Markup languages} & \textit{} & \textit{} \\
-\multicolumn{1}{l}{}   & \multicolumn{1}{l}{}  & \multicolumn{1}{l}{}  &  &  \\
-Portuguese (Native)    & R (Proficient)        & Markdown (Proficient) &  &  \\
-English (Fluent)       & Python (Intermediate) & LaTeX (Advanced)      &  &  \\
-French (Proficient)    & C (Basic)             & HTML (Advanced)       &  &  \\
-Italian (Intermediate) & Bash (Basic)          & CSS (Intermediate)    &  &  \\
-Spanish (Basic)        & Java (Basic)          & XML (Basic)           &  &  \\
-                       &                       &                       &  & 
-\end{tabular}
-\end{table}
-```
+<!-- ```{=latex} -->
+<!-- \begin{table}[tbh] -->
+<!-- \centering -->
+<!-- \begin{tabular}{cccll} -->
+<!-- \textbf{Languages} & \textbf{Programming languages} & \textbf{Markup languages} & \textit{} & \textit{} \\ -->
+<!-- \multicolumn{1}{l}{}   & \multicolumn{1}{l}{}  & \multicolumn{1}{l}{}  &  &  \\ -->
+<!-- Portuguese (Native)    & R (Proficient)        & Markdown (Proficient) &  &  \\ -->
+<!-- English (Fluent)       & Python (Intermediate) & LaTeX (Advanced)      &  &  \\ -->
+<!-- French (Proficient)    & C (Basic)             & HTML (Advanced)       &  &  \\ -->
+<!-- Italian (Intermediate) & Bash (Basic)          & CSS (Intermediate)    &  &  \\ -->
+<!-- Spanish (Basic)        & Java (Basic)          & XML (Basic)           &  &  \\ -->
+<!--                        &                       &                       &  &  -->
+<!-- \end{tabular} -->
+<!-- \end{table} -->
+<!-- ``` -->
+
+- **Languages:** Portuguese (native); English (fluent); French (proficient); Italian (intermediate); Spanish (basic) 
+
+- **Programming languages:** R (proficient); Python (intermediate); C (basic); Bash (basic); Java (basic)
+
+- **Markup languages:** Markdown (proficient); LaTeX (advanced); HTML (advanced); CSS (intermediate)
 
 # References
 
 ```{r}
 tribble(~ Name, ~ Position, ~ Contact,
         "\\href{https://jameshollway.com/}{James Hollway}", 
-        "Associate Professor of International Relations and Political Science at the Graduate Institute of International and Development Studies (IHEID)",
+        "Associate Professor of International Relations and Political Science \\newline The Graduate Institute of International and Development Studies (IHEID)",
         "Email: \\href{jameshollway@graduateinstitute.ch}{jameshollway@graduateinstitute.ch}",
         "\\href{https://yaninawelp.wordpress.com/about-me/}{Yanina Welp}",
-        "Research Fellow Albert Hirschman Centre on Democracy",
+        "Research Fellow \\newline Albert Hirschman Centre on Democracy (AHCD)",
         "Email: \\href{yaninawelp@graduateinstitute.ch}{yaninawelp@graduateinstitute.ch}") %>%
   detailed_entries(what = Position, why = Contact,
                    with = Name, .protect = FALSE)
