@@ -23,7 +23,8 @@ h1.title {
 $$\\[0.1cm]$$
 </style>
 <div style="text-align: center">
-*I actively contribute to the development and maintenance of many R packages, below are a few of them:*
+*I actively contribute to the development and maintenance of many R packages, 
+below are a few of them:*
 </div>
 
 $$\\[0.1cm]$$
@@ -38,6 +39,8 @@ $$\\[0.1cm]$$
 </a>
 </div>
 
+$$\\[0.1cm]$$
+
 </style>
 <div class="row" style="text-align:center">
 [manydata](https://manydata.ch) - An R portal for global governance data
@@ -47,6 +50,8 @@ $$\\[0.1cm]$$
 ![](images/manydataLogo.png)
 </a>
 </div>
+
+$$\\[0.1cm]$$
 
 </style>
 <div class="row" style="text-align:center">
@@ -58,6 +63,8 @@ $$\\[0.1cm]$$
 </a>
 </div>
 
+$$\\[0.1cm]$$
+
 </style>
 <div class="row" style="text-align:center">
 [migraph](https://snlab-ch.github.io/migraph/) - An R package with tools for multimodal and multilevel network analysis
@@ -68,9 +75,11 @@ $$\\[0.1cm]$$
 </a>
 </div>
 
+$$\\[0.1cm]$$
+
 </style>
 <div class="row" style="text-align:center">
-- [manypkgs](https://globalgov.github.io/manypkgs/) - An R package for supporting the creation of new many packages
+[manypkgs](https://globalgov.github.io/manypkgs/) - An R package for supporting the creation of new many packages
 </div>
 <div class="row" style="text-align:center">
 <a href = "https://globalgov.github.io/manypkgs/">
@@ -78,15 +87,19 @@ $$\\[0.1cm]$$
 </a>
 </div>
 
+$$\\[0.1cm]$$
+
 </style>
 <div class="row" style="text-align:center">
-- [poldis](https://github.com/henriquesposito/poldis) - An R package with tools for analyzing political discourses over time
+[poldis](https://github.com/henriquesposito/poldis) - An R package with tools for analyzing political discourses over time
 </div>
 <div class="row" style="text-align:center">
 <a href = "https://github.com/henriquesposito/poldis">
 ![](images/poldishexlogo.png)
 </a>
 </div>
+
+$$\\[0.1cm]$$
 
 </style>
 <div class="row" style="text-align:right">
