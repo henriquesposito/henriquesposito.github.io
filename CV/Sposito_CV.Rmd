@@ -227,10 +227,10 @@ tribble(~ Name, ~ Purpose, ~ Status,
 tribble(~ Name, ~ Position, ~ Contact,
         "\\href{https://jameshollway.com/}{James Hollway}", 
         "Associate Professor of International Relations and Political Science \\newline The Graduate Institute of International and Development Studies (IHEID)",
-        "Email: \\href{jameshollway@graduateinstitute.ch}{jameshollway@graduateinstitute.ch}",
+        "Email: \\href{james.hollway@graduateinstitute.ch}{james.hollway@graduateinstitute.ch}",
         "\\href{https://yaninawelp.wordpress.com/about-me/}{Yanina Welp}",
         "Research Fellow \\newline Albert Hirschman Centre on Democracy (AHCD)",
-        "Email: \\href{yaninawelp@graduateinstitute.ch}{yaninawelp@graduateinstitute.ch}") %>%
+        "Email: \\href{yanina.welp@graduateinstitute.ch}{yanina.welp@graduateinstitute.ch}") %>%
   detailed_entries(what = Position, why = Contact,
                    with = Name, .protect = FALSE)
 ```
