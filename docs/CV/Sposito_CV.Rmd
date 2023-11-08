@@ -5,7 +5,6 @@ position: Researcher
 about: ""
 email: henrique.sposito@graduateinstitute.ch
 github: henriquesposito
-twitter: rickysposito
 www: henriquesposito.com
 headcolor: "556B2F"
 output:
@@ -103,7 +102,7 @@ tribble(~ Course, ~ Where, ~ Date, ~ Why,
   \\item Demonstrates practical applications of R for the analysis of environment, finance, and conflict data",
   "Intermediate R for Social Science Research",
   "The Graduate Institute of International and Development Studies (IHEID)",
-  "Fall 2023 (upcoming)",
+  "Fall 2023",
   "Provides an applied introduction to various research methods using R
   \\item Teaches students how to select and carry-on different types of statistical modeling; how to work with unsupervised approaches for text analysis; and how to analyze, visualize, and model survey data") %>% 
   detailed_entries(what = Where, with = Course, where = Date, why = Why, .protect = FALSE)
