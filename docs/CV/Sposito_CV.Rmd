@@ -3,6 +3,7 @@ name: Henrique
 surname: Sposito
 position: Computational Social Scientist
 about: ""
+orcid: "0000-0003-3420-6085"
 email: henrique.sposito@graduateinstitute.ch
 github: henriquesposito
 www: henriquesposito.com
@@ -155,7 +156,7 @@ tribble(~ Title, ~ Talk, ~ Where, ~ Date, ~ Type,
                    why = Type, .protect = FALSE)
 ```
 
-# Packages
+# R Packages
 
 ```{r}
 tribble(~ Name, ~ Purpose, ~ Status,
