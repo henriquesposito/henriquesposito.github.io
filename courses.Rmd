@@ -30,9 +30,9 @@ $$\\[0.1cm]$$
 
 **Intermediate R for Social Science Research**
 
-*Fall 2023 (upcoming) at The Graduate Institute of International and Development Studies (IHEID)*
+*Fall 2023 at The Graduate Institute of International and Development Studies (IHEID)*
 
-This course offers masters' students an applied overview of various research methods using R. Students learn how to write, cite, and include table and figures using R Markdown; how to select and carry-on different types of statistical modeling; how to work with unsupervised approaches for text analysis; and how to code, visualize, and model network data.
+This course offers masters' students an applied overview of various research methods using R. Students learn how to write, cite, and include table and figures using R Markdown; how to select and carry-on different types of statistical modeling; how to work with unsupervised approaches for text analysis; and how to code, visualize, and model survey data.
 
 $$\\[0.1cm]$$
 
