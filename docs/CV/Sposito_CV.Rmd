@@ -27,7 +27,7 @@ library(kableExtra)
 
 My research leverages advanced text analysis techniques, such as supervised machine learning, to investigate how authenticity, problem construction, and urgency appear and change over time and across settings in political discourses. I also develop, contribute, and help maintain several R packages that assist researchers dealing with multiple, overlapping, and uncertain datasets across various domains of global governance.
 
-<!-- \centerline{Interests: Political Sociology, Statistical Methods, Environmental Studies} -->
+\textbf{Interests:} Political Sociology, Environmental Studies, Statistical Methods, Text Analysis, Comparative Politics
 
 # Education
 
@@ -35,13 +35,12 @@ My research leverages advanced text analysis techniques, such as supervised mach
 tribble(~ Degree, ~ Year, ~ Institution, ~ Where, ~ Why,
   "PhD in International Relations and Political Science",
   "Sep 2019 - 2024 (expected)",
-  "The Graduate Institute of International and Development Studies (IHEID)", 
+  "The Graduate Institute of International and Development Studies", 
   "Geneva, Switzerland",
-  "Doctoral Project: 'Authenticity, problem construction, and urgency in political discourses' \\\\ Supervised by Dr. James Hollway and Dr. Yanina Welp
-  \\item Core Courses: Doctoral Seminar; Survey Experiments; Social Networks; Statistics; Identity and Violence",
+  "Doctoral Project: 'Authenticity, problem construction, and urgency in political discourses' \\\\ Supervised by Dr. James Hollway and Dr. Yanina Welp",
   "Masters in International Relations and Political Science",
   "Sep 2017 - Aug 2019",
-  "The Graduate Institute of International and Development Studies (IHEID)",
+  "The Graduate Institute of International and Development Studies",
   "Geneva, Switzerland",
   "Masters' Thesis: 'The Construction of a Migrant Crisis - The Venezuelan Migration to Brazil' \\\\ Supervised by Dr. Melanie Kolbe and Dr. Graziella Moraes Silva",
   "Bachelor of Arts in Political Science and Sociology (Double Degree)", "Jan 2013 - Jun 2017", "University of Alabama at Birmingham", "Birmingham, United States",
@@ -54,15 +53,15 @@ tribble(~ Degree, ~ Year, ~ Institution, ~ Where, ~ Why,
 ```{r}
 tribble(~ What, ~ When, ~ With, ~ Where, ~ Why,
         "Research Assistant",
-        "Sep 2020 - Present","Centre for International Environmental Studies (CIES)", "Geneva, Switzerland",
-        "Assist with the theoretical, methodological, and empirical developments in data and analysis for across various domains of global governance in the 'PANARCHIC: Power and Networks and the Rate of Change in Institutional Complexes' project funded by the Swiss National Science Foundation (SNSF)
+        "Sep 2020 - Present","Centre for International Environmental Studies", "Geneva, Switzerland",
+        "Assist with the theoretical, methodological, and empirical developments in data and analysis for across various domains of global governance in the 'PANARCHIC: Power and Networks and the Rate of Change in Institutional Complexes' project funded by the Swiss National Science Foundation
         \\item Help with the development data infrastructure and statistical methods in R, offered as an emsemble of R packages, for the gathering, consolidating, and analyzing global governance data
         \\item Train and manage research assistants to work with data colletion, R package development, GitHub branching, website design, and among other programmatic issues related to the project") %>%
   detailed_entries(With, When, What, Where, Why, .protect = FALSE)
 # #long version (Selected Employment History)
 # tribble(~ What, ~ When, ~ With, ~ Where, ~ Why,
-#         "Research Assistant", "Sep 2020 - Present", "Centre for International Environmental Studies (CIES)", "Geneva, Switzerland",
-#         "Assist with the theoretical, methodological, and empirical developments in data and analysis for across various domains of global governance in the 'PANARCHIC: Power and Networks and the Rate of Change in Institutional Complexes' project funded by the Swiss National Science Foundation (SNSF)
+#         "Research Assistant", "Sep 2020 - Present", "Centre for International Environmental Studies", "Geneva, Switzerland",
+#         "Assist with the theoretical, methodological, and empirical developments in data and analysis for across various domains of global governance in the 'PANARCHIC: Power and Networks and the Rate of Change in Institutional Complexes' project funded by the Swiss National Science Foundation
 #         \\begin{itemize}
 #         \\item Help develop data infrastructure and statistical methods in R, offered as an emsemble of R packages, for the gathering, consolidation, and analysis of global governance data.
 #         \\item Train and manage other research assistants to work with data colletion, R programming, package development, GitHub branching, and other theoretical and practical issues related to the project.
@@ -95,17 +94,17 @@ tribble(~ Title, ~ Published, ~ Journal, ~ When,
 
 ```{r}
 tribble(~ Course, ~ Where, ~ Date, ~ Why, 
-  "Fundamentals of R (co-lecturered with Livio Silva-Muller)",
-  "The Graduate Institute of International and Development Studies (IHEID)",
+  "Fundamentals of R (co-lecturer with Livio Silva-Muller)",
+  "The Graduate Institute of International and Development Studies",
   "Fall 2022, Spring 2023, Fall 2023",
   "Provides a hands-on introduction to data science using the R programming language and software
   \\item Teaches students how to import, transform, analyze, and visualize various types of data in R
   \\item Demonstrates practical applications of R for the analysis of environment, finance, and conflict data",
   "Intermediate R for Social Science Research",
-  "The Graduate Institute of International and Development Studies (IHEID)",
+  "The Graduate Institute of International and Development Studies",
   "Fall 2023",
   "Provides an applied introduction to various research methods using R
-  \\item Teaches students how to select and carry-on different types of statistical modeling; how to work with unsupervised approaches for text analysis; and how to analyze, visualize, and model survey data") %>% 
+  \\item Teaches students how to select and carry-on different types of statistical modeling; how to work with unsupervised approaches for text analysis; and how to analyze and visualize survey data") %>% 
   detailed_entries(what = Where, with = Course, where = Date, why = Why, .protect = FALSE)
 ```
 
@@ -138,20 +137,20 @@ States",
                    where = Where, why = Type, .protect = FALSE)
 ```
 
-# Invited talks
+# Invited Talks
 
 ```{r}
 tribble(~ Title, ~ Talk, ~ Where, ~ Date, ~ Type,
   "How has the Brazilian Amazon been Constructed as a Problem? Presidential Speeches and Transnational Politics since 1985",
-  "The Graduate Institute of International and Development Studies (IHEID)",
+  "The Graduate Institute of International and Development Studies",
   "Geneva, Switzerland",
   "October 2022",
-  "Invited talk at the Centre for International Environmental Studies (CIES) Seminar",
+  "Invited talk at the Centre for International Environmental Studies Seminar",
   "Anti-Political Correctness and Authenticity: Authenticity performances in politics in Brazil and the United States",
   "Université de Lausanne",
   "Lausanne, Switzerland",
   "March 2022",
-  "Invited talk for the Research Group on Elections and Political Citizenship (GREC)") %>%
+  "Invited talk for the Research Group on Elections and Political Citizenship") %>%
   detailed_entries(what = Talk, with = Title, when = Date, where = Where,
                    why = Type, .protect = FALSE)
 ```
@@ -164,7 +163,7 @@ tribble(~ Name, ~ Purpose, ~ Status,
         "\\href{https://manydata.ch/}{An R portal for global governance data}",
         "Contributor",
         "\\href{https://globalgov.github.io/messydates/}{messydates}",
-        "\\href{https://globalgov.github.io/messydates/}{An R package for Extended Date/Time Format (EDTF)}",
+        "\\href{https://globalgov.github.io/messydates/}{An R package for Extended Date/Time Format}",
         "Contributor",
         "\\href{https://snlab-ch.github.io/manynet/}{manynet}",
         "\\href{https://snlab-ch.github.io/manynet/}{An R package to make, manipulate, and map myriad networks}",
@@ -191,11 +190,11 @@ tribble(~ Name, ~ Purpose, ~ Status,
 # Awards and Honors
 
 - UAB Presidential Honors List 2013, 2015, 2016 and 2017
-- Conference USA Academic Honor Medal (2015)
-- National Soccer Coaches Association of America NCAA Scholar All-South Region Team (2016)
-- Conference USA Commissioner's Honor Roll (2013 – 2016)
-- Conference USA All-Academic Team (2016)
-- College Sports Information Directors of America Academic All-District Team (2016)
+- Conference USA Academic Honor Medal 2015
+- National Soccer Coaches Association of America NCAA Scholar All-South Region Team 2016
+- Conference USA Commissioner's Honor Roll 2013 – 2016
+- Conference USA All-Academic Team 2016
+- College Sports Information Directors of America Academic All-District Team 2016
 
 # Skills
 
@@ -226,13 +225,13 @@ tribble(~ Name, ~ Purpose, ~ Status,
 ```{r}
 tribble(~ Name, ~ Position, ~ Contact,
         "\\href{https://jameshollway.com/}{James Hollway}", 
-        "Associate Professor of International Relations and Political Science \\newline The Graduate Institute of International and Development Studies (IHEID)",
+        "Associate Professor of International Relations and Political Science \\newline The Graduate Institute of International and Development Studies",
         "Email: \\href{james.hollway@graduateinstitute.ch}{james.hollway@graduateinstitute.ch}",
         "\\href{https://yaninawelp.wordpress.com/about-me/}{Yanina Welp}",
-        "Research Fellow \\newline Albert Hirschman Centre on Democracy (AHCD)",
+        "Research Fellow \\newline Albert Hirschman Centre on Democracy",
         "Email: \\href{yanina.welp@graduateinstitute.ch}{yanina.welp@graduateinstitute.ch}") %>%
   detailed_entries(what = Position, why = Contact,
                    with = Name, .protect = FALSE)
 ```
 
-\center{*Additional references available upon request*}
+\center{\textit{Additional references available upon request.}}
