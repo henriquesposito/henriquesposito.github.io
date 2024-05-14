@@ -82,10 +82,10 @@ tribble(~ What, ~ When, ~ With, ~ Where, ~ Why,
 tribble(~ Title, ~ Published, ~ Journal, ~ When,
   "\\href{https://www.tandfonline.com/doi/full/10.1080/09644016.2023.2220639}{Which Amazon Problem? Problem-constructions and Transnationalism in Brazilian Presidential Discourse since 1985 (with Livio Silva-Muller)}",
   "\\href{https://www.tandfonline.com/doi/full/10.1080/09644016.2023.2220639}{DOI: 10.1080/09644016.2023.2220639}", "Environmental Politics", "June 2023",
-  "Radiating Truthiness: Authenticity performances in politics in Brazil and the United States", "Revise and Resubmit in Political Studies", "", "",
-  "Managing imprecise dates in R with messydates (with James Hollway)",
+  "Radiating Truthiness: Authenticity performances in politics in Brazil and the United States", "Minor Revisions in Political Studies", "", "",
+  "Promises Promises: An introduction to urgency analyzis (with Jael Tan and James Hollway)",
   "Working Paper", "", "",
-  "It is urgent that we look at urgency in politics: An introduction to urgency analysis",
+  "Managing imprecise dates in R with messydates (with James Hollway)",
   "Working Paper", "", "") %>% 
   detailed_entries(where = Journal, with = Title, what = Published, when = When,
                    .protect = FALSE)
@@ -219,7 +219,7 @@ tribble(~ Name, ~ Purpose, ~ Status,
 
 - **Programming languages:** R (proficient); Python (intermediate); C (basic); Bash (basic); Java (basic)
 
-- **Markup languages:** Markdown (proficient); LaTeX (advanced); HTML (advanced); CSS (intermediate)
+- **Markup languages:** Markdown (proficient); LaTeX (advanced); HTML (advanced); CSS (advanced)
 
 # References
 
