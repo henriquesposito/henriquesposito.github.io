@@ -24,15 +24,19 @@ $$\\[0.1cm]$$
 
 This article investigates how the Amazon has been constructed as a problem in Brazilian presidential speeches since 1985. We develop a framework that accounts for how important transnational actors, as presidents, construct policy objects as particular problems depending on where and when they participate in politics. We create a dataset containing 6240 official speeches by all Brazilian presidents since 1985. We train a supervised machine learning algorithim to classify how Amazon related sections within speeches construct the Amazon as a problem. We find that presidents often construct the Amazon as an environmental problem when speaking far away from the region, whereas they usually construct it as problems of economic integration or social development when in the Amazon.
 
-$$\\[0.1cm]$$
-
-## Under review
+*[Awarded Best Paper in Amazonian Studies at the Latin American Studies Association](https://lasaweb.org/en/2024-section-awards/)*
 
 $$\\[0.1cm]$$
 
-**"Radiating Truthiness": Authenticity performances in politics in Brazil and the United States** *(Revise and Resubmit in Political Studies)*
+## Under Review
 
-Political authenticity is connected to higher levels of political trust from electorates and can influence political outcomes but, for being deemed vague as a concept, it is often overlooked. To date, discussions of how authenticity appears and changes in politics typically remain at the theoretical level and are rarely comparative. This article develops an original framework to identify and compare how authenticity is performed in political discourses over time and across settings by politicians. To demonstrate the usefulness of the framework, this article investigates authenticity performances in 21,496 political texts of electoral debates, interviews, campaigns, and official speeches by presidents and presidential candidates in Brazil and the United States (US) since 1988. The findings indicate that authenticity is generally performed with greater frequency by presidents and presidential candidates in Brazil than in the US, though authenticity performances are not more prevalent during election years in either country
+$$\\[0.1cm]$$
+
+**"Radiating Truthiness": Authenticity performances in politics in Brazil and the United States** 
+
+*Conditionally Accepted in Political Studies*
+
+Political authenticity is connected to higher levels of political trust from electorates and can influence political outcomes, but it is often overlooked as a relevant factor for electoral behavior. To date, discussions of how authenticity appears and changes in politics typically remain at the theoretical level and are rarely comparative. This article develops a framework to identify and compare how authenticity is performed in political discourses over time and across settings by politicians. To demonstrate the usefulness of the framework, this article investigates authenticity performances in 21,496 political texts of electoral debates, interviews, campaigns, and official speeches by presidents and presidential candidates in Brazil and the United States (US) since 1988. The findings indicate that authenticity is generally performed with greater frequency by presidents and presidential candidates in Brazil than in the US, though authenticity performances are not more prevalent during election years in either country.
 
 $$\\[0.1cm]$$
 
@@ -40,12 +44,12 @@ $$\\[0.1cm]$$
 
 $$\\[0.1cm]$$
 
-**Managing imprecise dates in R with messydates (with James Holway)**
+**Promises Promises: An introduction to urgency analyzis (with Jael Tan and James Hollway)**
 
-Dates are often messy. Whether historical (or ancient), future, or even recent, we sometimes only know approximately when an event occurred, that it happened within a particular period, or sources offer multiple competing dates. Although researchers generally recognize this messiness, many feel expected to force artificial precision or unfortunate imprecision on temporal data to proceed with analysis. However, this can create inferential issues when timing or sequence is important. This paper introduces the [messydates](https://globalgov.github.io/messydates/) R package that assists researchers with this problem by retaining and working with various kinds of date imprecision.
+Political statements are regular sources of politicians' preferences and plans. The urgency with which a politician talks about their preferences and plans communicates important information about what they should pursue first, most strongly, or with most energy or commitment. In political statements, urgency is an expression of how necessary or how soon an action should be undertaken or completed. In this paper, we examine the ‘urgency’ of future promises in political discourse. To do so, we develop a new method to extract and rank  the intent for action to be taken from political discourses, namely urgency analysis. Urgency analysis employs a combination of Natural Language Processes (NLP) and dictionary approaches to provide a localized (section and issue specific), normalized (comparable by default), and inclusive (accounts for metadata related to setting and timing) new method for the analysis of political texts. Urgency analysis is implemented for R with the [poldis](https://github.com/henriquesposito/poldis) package, making it an easy, free, and accessible tool for researchers interested in analyzing political discourses. The package includes additional tools to visualize and compare results.
 
 $$\\[0.1cm]$$
 
-**It is urgent that we look at urgency in politics**
+**Managing imprecise dates in R with messydates (with James Holway)**
 
-Some scholars have argued that certain politicians sell fear, rather than hope, in political discourses. “Fear politics” embed individual and collective anxieties in discourses to defend change, or continuity, of certain political pathways against “negative” futures. Whereas “hope politics”, instead, indicate an affirmative attitude towards possible future as to justify change or reassure all will be. Both fear and hope in political discourses relate to change and continuity in constructing past(s), present(s), and future(s). By asking how discourses that “sell” fear or hope work, we can grasp with how, when, and where politicians argue for change and/or continuity when doing politics. In this article, I argue that understanding political discourses of change and continuity as performances of urgency provides an alternative approach to investigating and comparing politics over time and across spaces. I also develop a new framework and methods to study discursive performances of change and continuity in politics, namely urgency analysis.
+Dates are often messy. Whether historical (or ancient), future, or even recent, we sometimes only know approximately when an event occurred, that it happened within a particular period, or sources offer multiple competing dates. Although researchers generally recognize this messiness, many feel expected to force artificial precision or unfortunate imprecision on temporal data to proceed with analysis. However, this can create inferential issues when timing or sequence is important. This paper introduces the [messydates](https://globalgov.github.io/messydates/) R package that assists researchers with this problem by retaining and working with various kinds of date imprecision.

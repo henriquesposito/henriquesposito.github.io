@@ -7,8 +7,11 @@ $$\\[0.1cm]$$
 *I restore vintage bikes in my spare time!*
 
 $$\\[0.1cm]$$
+
 <a href = "https://www.instagram.com/bikeforfriends/">
-![](images/bff.jpeg)
+<center>
+![](images/bff.jpeg){ width=60% height=60% }
+<center>
 </a>
 
 $$\\[0.1cm]$$
@@ -21,7 +24,9 @@ I have always ridden bikes and I have long been fascinated by how things work. O
 
 $$\\[0.1cm]$$
 
-![](images/bjb.jpg)
+<center>
+![](images/bjb.jpg){ width=60% height=60% }
+<center>
 
 $$\\[0.1cm]$$
 
@@ -37,7 +42,9 @@ This is a junkyard build, meaning I found almost all the parts used in the bicyc
 
 $$\\[0.1cm]$$
 
-![](images/frank.jpg)
+<center>
+![](images/frank.jpg){ width=60% height=60% }
+<center>
 
 $$\\[0.1cm]$$
 
@@ -49,7 +56,9 @@ This is a late 1980s Olmo Grand Prix frame turned into a classy single speed bik
 
 $$\\[0.1cm]$$
 
-![](images/livio.jpg)
+<center>
+![](images/livio.jpg){ width=60% height=60% }
+<center>
 
 $$\\[0.1cm]$$
 
@@ -61,7 +70,9 @@ This is a 1980-84 Pinarello Treviso SL frame first build by Bernard Vifian, a le
 
 $$\\[0.1cm]$$
 
-![](images/pina1.jpeg)
+<center>
+![](images/pina1.jpeg){ width=60% height=60% }
+<center>
 
 $$\\[0.1cm]$$
 
@@ -73,7 +84,9 @@ The GRINCH is ready to roll. This is an early 1980s Mercier frame found at in th
 
 $$\\[0.1cm]$$
 
-![](images/mercier.jpg)
+<center>
+![](images/mercier.jpg){ width=60% height=60% }
+<center>
 
 $$\\[0.1cm]$$
 
@@ -85,7 +98,9 @@ This is my 1980 Alan Super Record frame with a set of Mavic Aksium wheels, Miche
 
 $$\\[0.1cm]$$
 
-![](images/alan.jpg)
+<center>
+![](images/alan.jpg){ width=60% height=60% }
+<center>
 
 $$\\[0.1cm]$$
 
@@ -97,7 +112,9 @@ This bike is built on an early 1990s TVT Carbon HM frame, its’ colors scream 1
 
 $$\\[0.1cm]$$
 
-![](images/ferago.jpg)
+<center>
+![](images/ferago.jpg){ width=60% height=60% }
+<center>
 
 $$\\[0.1cm]$$
 
@@ -109,7 +126,9 @@ ANGIE is a mid 1980s Tommasini Super Prestige from my personal colletion that ri
 
 $$\\[0.1cm]$$
 
-![](images/tomma.jpg)
+<center>
+![](images/tomma.jpg){ width=60% height=60% }
+<center>
 
 $$\\[0.1cm]$$
 
@@ -121,7 +140,9 @@ I got this 1990 Pinarello Asolo in Italy this summer and it was in bad shape... 
 
 $$\\[0.1cm]$$
 
-![](images/asolo.jpeg)
+<center>
+![](images/asolo.jpeg){ width=60% height=60% }
+<center>
 
 $$\\[0.1cm]$$
 
@@ -133,7 +154,9 @@ I would like to proudly introduce to you Cadi! Cadi is an early 1990s Casati Mon
 
 $$\\[0.1cm]$$
 
-![](images/nexus.jpeg)
+<center>
+![](images/nexus.jpeg){ width=60% height=60% }
+<center>
 
 $$\\[0.1cm]$$
 
@@ -145,7 +168,9 @@ Sometimes a BFF asks for a cool vintage bike, so they get the coolest! Meet Roxa
 
 $$\\[0.1cm]$$
 
-![](images/peugeou2.jpeg)
+<center>
+![](images/peugeou2.jpeg){ width=50% height=50% }
+<center>
 
 $$\\[0.1cm]$$
 
@@ -157,7 +182,9 @@ Meet Bohémien a late 1970s/1980s Geneva made bike built by the Jean Brun cycle 
 
 $$\\[0.1cm]$$
 
-![](images/jeanbrun.jpeg)
+<center>
+![](images/jeanbrun.jpeg){ width=60% height=60% }
+<center>
 
 $$\\[0.1cm]$$
 
@@ -169,7 +196,9 @@ Giovanna is a 1996 GIOS Compact Pro assembled with a pristine (and complete) 199
 
 $$\\[0.1cm]$$
 
-![](images/gios.jpeg)
+<center>
+![](images/gios.jpeg){ width=60% height=60% }
+<center>
 
 $$\\[0.1cm]$$
 
@@ -181,7 +210,9 @@ Yet another vintage Pinarello ...️ This time it is a 1994 Pinarello Stelvio fr
 
 $$\\[0.1cm]$$
 
-![](images/pina3.jpeg)
+<center>
+![](images/pina3.jpeg){ width=60% height=60% }
+<center>
 
 $$\\[0.1cm]$$
 
@@ -193,7 +224,9 @@ Meet Kogamon! This is a 1990 Koga Miyata Pro frame assembled with a full Shimano
 
 $$\\[0.1cm]$$
 
-![](images/koga2.jpg)
+<center>
+![](images/koga2.jpg){ width=60% height=60% }
+<center>
 
 $$\\[0.1cm]$$
 
@@ -205,7 +238,9 @@ Very cool new project ready for spring. It all started with a 1980s Mazza race f
 
 $$\\[0.1cm]$$
 
-![](images/mazza.jpeg)
+<center>
+![](images/mazza.jpeg){ width=60% height=60% }
+<center>
 
 $$\\[0.1cm]$$
 
@@ -217,7 +252,9 @@ Meet Layla, the newest vintage BFF out there. Layla was built to be an all aroun
 
 $$\\[0.1cm]$$
 
-![](images/laura.jpg)
+<center>
+![](images/laura.jpg){ width=60% height=60% }
+<center>
 
 $$\\[0.1cm]$$
 
@@ -229,7 +266,9 @@ Just my personal Eddy Merckx MX Leader built with a Campagnolo Record 8 speed gr
 
 $$\\[0.1cm]$$
 
-![](images/em.jpeg)
+<center>
+![](images/em.jpeg){ width=60% height=60% }
+<center>
 
 $$\\[0.1cm]$$
 
@@ -237,8 +276,52 @@ $$\\[0.1cm]$$
 
 $$\\[0.1cm]$$
 
-Not my usual build but this one is on 🔥 1994 Mazza (Geneva made) Team frame neoretro style with a brand new Campagnolo Centaur groupset and Siricco wheelset. How do you retrofit?
+Not my usual build but this one is on 🔥 1994 Mazza (Geneva made) Team frame neoretro style with a brand new Campagnolo Centaur groupset and Siricco wheelset.
 
 $$\\[0.1cm]$$
 
-![](images/mazza2.jpeg)
+<center>
+![](images/mazza2.jpeg){ width=60% height=60% }
+<center>
+
+$$\\[0.1cm]$$
+
+# Bassocross
+
+$$\\[0.1cm]$$
+
+Funky 1980s Basso cyclocross frame built into a hybrid do-it-all bike!
+
+$$\\[0.1cm]$$
+
+<center>
+![](images/bassocross.jpg){ width=60% height=60% }
+<center>
+
+$$\\[0.1cm]$$
+
+# Bia
+
+$$\\[0.1cm]$$
+
+My dad’s first ever bike. This project started with 1970/1980s Mazza frame, made in Geneva. The old paint off was stripped for a bare metal finish. The bike was assembled with a period correct Shimano 600 groupset - with a few old school mods in handlebars and shifters for comfort.
+
+$$\\[0.1cm]$$
+
+<center>
+![](images/daddy.jpg){ width=60% height=60% }
+<center>
+
+$$\\[0.1cm]$$
+
+# Colnie
+
+$$\\[0.1cm]$$
+
+Mid-1990s Colnago Master Olympic Art Decor frame assembled a Campagnolo Centaur 11 speed groupset and Campagnolo Zonda wheels. Should it ever be ridden?
+
+$$\\[0.1cm]$$
+
+<center>
+![](images/colnie.jpg){ width=60% height=60% }
+<center>
