@@ -186,7 +186,7 @@ tribble(~ Name, ~ Purpose, ~ Status,
 
 # Awards and Honors
 
-- [Best Paper in Amazonian Studies at the Latin American Studies Association for "Which Amazon Problem? Problem-constructions and Transnationalism in Brazilian Presidential Discourse since 1985" published in Environmental Politics](https://lasaweb.org/en/2024-section-awards/)
+- [Best Paper in Amazonian Studies at the Latin American Studies Association for "Which Amazon Problem? Problem-constructions and Transnationalism in Brazilian Presidential Discourse since 1985"](https://lasaweb.org/en/2024-section-awards/)
 - UAB Presidential Honors List 2013, 2015, 2016 and 2017
 - Conference USA Commissioner's Honor Roll 2013 – 2016
 - National Soccer Coaches Association of America NCAA Scholar All-South Region Team 2016
@@ -237,5 +237,3 @@ tribble(~ Name, ~ Position, ~ Contact,
   detailed_entries(what = Position, why = Contact,
                    with = Name, .protect = FALSE)
 ```
-
-\center{\textit{Additional references available upon request.}}
