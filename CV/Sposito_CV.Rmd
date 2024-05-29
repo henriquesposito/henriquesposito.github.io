@@ -91,7 +91,7 @@ tribble(~ Title, ~ Published, ~ Journal, ~ When,
 
 ```{r}
 tribble(~ Course, ~ Where, ~ Date, ~ Why, 
-  "Fundamentals of R (co-lecturer with Livio Silva-Muller)",
+  "Fundamentals of R (co-lecturer)",
   "The Graduate Institute of International and Development Studies",
   "Fall 2022, Spring 2023, Fall 2023",
   "Provides a hands-on introduction to data science using the R programming language and software
@@ -189,10 +189,10 @@ tribble(~ Name, ~ Purpose, ~ Status,
 - [Best Paper in Amazonian Studies at the Latin American Studies Association for "Which Amazon Problem? Problem-constructions and Transnationalism in Brazilian Presidential Discourse since 1985" published in Environmental Politics](https://lasaweb.org/en/2024-section-awards/)
 - UAB Presidential Honors List 2013, 2015, 2016 and 2017
 - Conference USA Commissioner's Honor Roll 2013 – 2016
-- Conference USA Academic Honor Medal 2015
 - National Soccer Coaches Association of America NCAA Scholar All-South Region Team 2016
 - Conference USA All-Academic Team 2016
 - College Sports Information Directors of America Academic All-District Team 2016
+- Conference USA Academic Honor Medal 2015
 
 # Skills
 
@@ -223,10 +223,16 @@ tribble(~ Name, ~ Purpose, ~ Status,
 ```{r}
 tribble(~ Name, ~ Position, ~ Contact,
         "\\href{https://jameshollway.com/}{James Hollway}", 
-        "Associate Professor of International Relations and Political Science \\newline The Graduate Institute of International and Development Studies",
+        "Associate Professor of International Relations and Political Science
+        \\newline The Graduate Institute of International and Development Studies",
         "Email: \\href{james.hollway@graduateinstitute.ch}{james.hollway@graduateinstitute.ch}",
+        "\\href{https://www.graduateinstitute.ch/academic-departments/faculty/graziella-moraes-dias-da-silva}{Graziella Moraes Dias da Silva}", 
+        "Associate Professor of Anthropology and Sociology
+        \\newline The Graduate Institute of International and Development Studies",
+        "Email: \\href{graziella.moraes@graduateinstitute.ch}{graziella.moraes@graduateinstitute.ch}",
         "\\href{https://yaninawelp.wordpress.com/about-me/}{Yanina Welp}",
-        "Research Fellow \\newline Albert Hirschman Centre on Democracy",
+        "Research Fellow
+        \\newline Albert Hirschman Centre on Democracy",
         "Email: \\href{yanina.welp@graduateinstitute.ch}{yanina.welp@graduateinstitute.ch}") %>%
   detailed_entries(what = Position, why = Contact,
                    with = Name, .protect = FALSE)
