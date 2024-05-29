@@ -12,7 +12,7 @@ output:
   vitae::awesomecv:
     page_total: true
 header-includes:
-- \geometry{top=1.75cm}
+- \geometry{top=2cm, bottom=2cm}
 ---
 
 ```{r setup, include=FALSE}
@@ -48,7 +48,22 @@ tribble(~ Degree, ~ Year, ~ Institution, ~ Where, ~ Why,
   detailed_entries(Institution, Year, Degree, Where, Why, .protect = FALSE)
 ```
 
-# Selected Employment History
+# Publications and Working Papers
+
+```{r}
+tribble(~ Title, ~ Published, ~ Journal, ~ When,
+  "\\href{https://www.tandfonline.com/doi/full/10.1080/09644016.2023.2220639}{Which Amazon Problem? Problem-constructions and Transnationalism in Brazilian Presidential Discourse since 1985 (with Livio Silva-Muller)}",
+  "\\href{https://www.tandfonline.com/doi/full/10.1080/09644016.2023.2220639}{DOI: 10.1080/09644016.2023.2220639}", "Environmental Politics", "June 2023",
+  "Radiating Truthiness: Authenticity performances in politics in Brazil and the United States", "Forthcoming", "Political Studies", "2024",
+  "Promises Promises: An introduction to urgency analyzis (with Jael Tan and James Hollway)",
+  "Working Paper", "", "",
+  "Managing imprecise dates in R with messydates (with James Hollway)",
+  "Working Paper", "", "") %>% 
+  detailed_entries(where = Journal, with = Title, what = Published, when = When,
+                   .protect = FALSE)
+```
+
+# Employment History (selected)
 
 ```{r}
 # tribble(~ What, ~ When, ~ With, ~ Where, ~ Why,
@@ -72,21 +87,6 @@ tribble(~ What, ~ When, ~ With, ~ Where, ~ Why,
   detailed_entries(What, When, With, Where, Why, .protect = FALSE)
 ```
 
-# Publications and Working Papers
-
-```{r}
-tribble(~ Title, ~ Published, ~ Journal, ~ When,
-  "\\href{https://www.tandfonline.com/doi/full/10.1080/09644016.2023.2220639}{Which Amazon Problem? Problem-constructions and Transnationalism in Brazilian Presidential Discourse since 1985 (with Livio Silva-Muller)}",
-  "\\href{https://www.tandfonline.com/doi/full/10.1080/09644016.2023.2220639}{DOI: 10.1080/09644016.2023.2220639}", "Environmental Politics", "June 2023",
-  "Radiating Truthiness: Authenticity performances in politics in Brazil and the United States", "Forthcoming in Political Studies", "", "",
-  "Promises Promises: An introduction to urgency analyzis (with Jael Tan and James Hollway)",
-  "Working Paper", "", "",
-  "Managing imprecise dates in R with messydates (with James Hollway)",
-  "Working Paper", "", "") %>% 
-  detailed_entries(where = Journal, with = Title, what = Published, when = When,
-                   .protect = FALSE)
-```
-
 # Teaching
 
 ```{r}
@@ -103,35 +103,6 @@ tribble(~ Course, ~ Where, ~ Date, ~ Why,
   "Provides an applied introduction to various research methods using R
   \\item Teaches students how to select and carry-on different types of statistical modeling; how to work with unsupervised approaches for text analysis; and how to analyze and visualize survey data") %>% 
   detailed_entries(what = Where, with = Course, where = Date, why = Why, .protect = FALSE)
-```
-
-# Conference Presentations
-
-```{r}
-tribble(~ Title, ~ Conference, ~ Where, ~ Date, ~ Type,
-  "Anti-PC and Authenticity: Authenticity performances in politics in Brazil and the United States",
-  "American Sociological Association",
-  "Los Angeles, United States",
-  "August 2022",
-  "Regular session on the 'Party and its base: Understanding the relationship between political professionals and their audiences'",
-  "Amazonian Repertoires in Brazilian Presidential Discourse since 1985",
-  "Latin American Studies Association",
-  "Online",
-  "May 2022",
-  "Panel on the 'Forest Managements Conservation and Agricultural Production'",
-  "Performing Authenticity: Anti-Politically Correct Discourses in Brazil and the United
-States",
-  "Swiss Political Science Association",
-  "Online",
-  "February 2022",
-  "Workshop session on 'Liberal Ideology and Cultural Backlash'",
-  "The Construction of a Migratory Crisis: The Venezuelan Migration to Brazil",
-  "Latin American Studies Association",
-  "Online",
-  "May 2020",
-  "Panel on 'Las distintas violencias de las migraciones'") %>%
-  detailed_entries(what = Conference, with = Title, when = Date,
-                   where = Where, why = Type, .protect = FALSE)
 ```
 
 # Invited Talks
@@ -152,35 +123,62 @@ tribble(~ Title, ~ Talk, ~ Where, ~ Date, ~ Type,
                    why = Type, .protect = FALSE)
 ```
 
-\newpage
+# Conference Presentations
+
+```{r}
+tribble(~ Title, ~ Conference, ~ Where, ~ Date, ~ Type,
+  "American Sociological Association",
+  "Anti-PC and Authenticity: Authenticity performances in politics in Brazil and the United States",
+  "Los Angeles, United States",
+  "August 2022",
+  "Regular session on the 'Party and its base: Understanding the relationship between political professionals and their audiences'",
+  "Latin American Studies Association",
+  "Amazonian Repertoires in Brazilian Presidential Discourse since 1985",
+  "Online",
+  "May 2022",
+  "Panel on the 'Forest Managements Conservation and Agricultural Production'",
+  "Swiss Political Science Association",
+  "Performing Authenticity: Anti-Politically Correct Discourses in Brazil and the United
+States",
+  "Online",
+  "February 2022",
+  "Workshop session on 'Liberal Ideology and Cultural Backlash'",
+  "Latin American Studies Association",
+  "The Construction of a Migratory Crisis: The Venezuelan Migration to Brazil",
+  "Online",
+  "May 2020",
+  "Panel on 'Las distintas violencias de las migraciones'") %>%
+  detailed_entries(what = Conference, with = Title, when = Date,
+                   where = Where, why = Type, .protect = FALSE)
+```
 
 # R Packages
 
 ```{r}
 tribble(~ Name, ~ Purpose, ~ Status,
+        "\\href{https://github.com/henriquesposito/poldis}{poldis}",
+        "\\href{https://github.com/henriquesposito/poldis}{Tools for analyzing political discourses over time}", 
+        "Author",
         "\\href{https://manydata.ch/}{manydata}",
-        "\\href{https://manydata.ch/}{An R portal for global governance data}",
+        "\\href{https://manydata.ch/}{Portal for global governance data}",
         "Contributor",
         "\\href{https://globalgov.github.io/messydates/}{messydates}",
-        "\\href{https://globalgov.github.io/messydates/}{An R package for Extended Date/Time Format}",
+        "\\href{https://globalgov.github.io/messydates/}{Extended Date/Time Format}",
         "Contributor",
-        "\\href{https://snlab-ch.github.io/manynet/}{manynet}",
-        "\\href{https://snlab-ch.github.io/manynet/}{An R package to make, manipulate, and map myriad networks}",
+        "\\href{https://stocnet.github.io/manynet/}{manynet}",
+        "\\href{https://stocnet.github.io/manynet/}{Make, manipulate, and map myriad networks}",
         "Contributor",
-        "\\href{https://snlab-ch.github.io/migraph/}{migraph}",
-        "\\href{https://snlab-ch.github.io/migraph/}{An R package with tools for multimodal and multilevel network analysis}", 
+        "\\href{https://stocnet.github.io/migraph/}{migraph}",
+        "\\href{https://stocnet.github.io/migraph/}{Tools for multimodal and multilevel network analysis}", 
         "Contributor",
-        "\\href{https://github.com/henriquesposito/poldis}{poldis}",
-        "\\href{https://github.com/henriquesposito/poldis}{An R package with tools for analyzing political discourses over time}", 
-        "Author",
         "\\href{https://globalgov.github.io/manypkgs/}{manypkgs}",
-        "\\href{https://globalgov.github.io/manypkgs/}{An R package to support the creation of new many packages}",
+        "\\href{https://globalgov.github.io/manypkgs/}{Support the creation of new many packages}",
         "Contributor",
         "\\href{https://globalgov.github.io/manyenviron/}{manyenviron}",
-        "\\href{https://globalgov.github.io/manyenviron/}{An R data package on environmental agreements}",
+        "\\href{https://globalgov.github.io/manyenviron/}{Data on environmental agreements}",
         "Contributor",
         "\\href{https://globalgov.github.io/manystates/}{manystates}",
-        "\\href{https://globalgov.github.io/manystates/}{An R data package on sovereign states}",
+        "\\href{https://globalgov.github.io/manystates/}{Data on sovereign states}",
         "Contributor") %>%
   detailed_entries(what = Purpose, with = Name, where = Status,
                    .protect = FALSE)
@@ -216,7 +214,7 @@ tribble(~ Name, ~ Purpose, ~ Status,
 
 - **Languages:** Portuguese (native); English (fluent); French (proficient); Italian (intermediate); Spanish (basic) 
 
-- **Programming languages:** R (proficient); Python (intermediate); C (basic); Bash (basic); Java (basic)
+- **Programming languages:** R (proficient); Python (intermediate); Java (intermediate), C (basic)
 
 - **Markup languages:** Markdown (proficient); LaTeX (advanced); HTML (advanced); CSS (advanced)
 
@@ -226,10 +224,12 @@ tribble(~ Name, ~ Purpose, ~ Status,
 tribble(~ Name, ~ Position, ~ Contact,
         "\\href{https://jameshollway.com/}{James Hollway}", 
         "Associate Professor of International Relations and Political Science
+        \\newline Co-Director of the Global governance Centre
         \\newline The Graduate Institute of International and Development Studies",
         "Email: \\href{james.hollway@graduateinstitute.ch}{james.hollway@graduateinstitute.ch}",
         "\\href{https://www.graduateinstitute.ch/academic-departments/faculty/graziella-moraes-dias-da-silva}{Graziella Moraes Dias da Silva}", 
         "Associate Professor of Anthropology and Sociology
+        \\newline Co-Director of the Albert Hirschman Centre on Democracy
         \\newline The Graduate Institute of International and Development Studies",
         "Email: \\href{graziella.moraes@graduateinstitute.ch}{graziella.moraes@graduateinstitute.ch}",
         "\\href{https://yaninawelp.wordpress.com/about-me/}{Yanina Welp}",
