@@ -152,6 +152,8 @@ tribble(~ Title, ~ Talk, ~ Where, ~ Date, ~ Type,
                    why = Type, .protect = FALSE)
 ```
 
+\newpage
+
 # R Packages
 
 ```{r}
