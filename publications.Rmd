@@ -50,6 +50,6 @@ Political statements are regular sources of politicians' preferences and plans. 
 
 $$\\[0.1cm]$$
 
-**Managing imprecise dates in R with messydates (with James Holway)**
+**Managing imprecise dates in R with messydates (with James Hollway)**
 
 Dates are often messy. Whether historical (or ancient), future, or even recent, we sometimes only know approximately when an event occurred, that it happened within a particular period, or sources offer multiple competing dates. Although researchers generally recognize this messiness, many feel expected to force artificial precision or unfortunate imprecision on temporal data to proceed with analysis. However, this can create inferential issues when timing or sequence is important. This paper introduces the [messydates](https://globalgov.github.io/messydates/) R package that assists researchers with this problem by retaining and working with various kinds of date imprecision.
