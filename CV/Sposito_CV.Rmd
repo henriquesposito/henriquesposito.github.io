@@ -34,7 +34,7 @@ My research leverages advanced text analysis techniques, such as supervised mach
 ```{r}
 tribble(~ Degree, ~ Year, ~ Institution, ~ Where, ~ Why,
   "PhD in International Relations and Political Science",
-  "Sep 2019 - 2024 (expected)",
+  "Sep 2019 - Sep 2024 (expected)",
   "The Graduate Institute of International and Development Studies", 
   "Geneva, Switzerland",
   "Doctoral Project: 'Authenticity, problem construction, and urgency in political discourses' \\\\ Supervised by Dr. James Hollway and Dr. Yanina Welp",
@@ -52,9 +52,9 @@ tribble(~ Degree, ~ Year, ~ Institution, ~ Where, ~ Why,
 
 ```{r}
 tribble(~ Title, ~ Published, ~ Journal, ~ When,
+        "Radiating Truthiness: Authenticity performances in politics in Brazil and the United States", "Forthcoming", "Political Studies", "2024",
   "\\href{https://www.tandfonline.com/doi/full/10.1080/09644016.2023.2220639}{Which Amazon Problem? Problem-constructions and Transnationalism in Brazilian Presidential Discourse since 1985 (with Livio Silva-Muller)}",
   "\\href{https://www.tandfonline.com/doi/full/10.1080/09644016.2023.2220639}{DOI: 10.1080/09644016.2023.2220639}", "Environmental Politics", "June 2023",
-  "Radiating Truthiness: Authenticity performances in politics in Brazil and the United States", "Forthcoming", "Political Studies", "2024",
   "Promises Promises: An introduction to urgency analysis (with Jael Tan and James Hollway)",
   "Working Paper", "", "",
   "Managing imprecise dates in R with messydates (with James Hollway)",
@@ -123,7 +123,7 @@ tribble(~ Title, ~ Talk, ~ Where, ~ Date, ~ Type,
                    why = Type, .protect = FALSE)
 ```
 
-# Conference Presentations
+# Conference Presentations (selected)
 
 ```{r}
 tribble(~ Title, ~ Conference, ~ Where, ~ Date, ~ Type,
