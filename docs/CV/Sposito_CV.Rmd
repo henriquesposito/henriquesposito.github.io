@@ -29,8 +29,6 @@ My research leverages advanced text analysis techniques, such as supervised mach
 
 \textbf{Interests:} Political Sociology, Environmental Studies, Statistical Methods, Text Analysis, Comparative Politics
 
-\thispagestyle{empty}
-
 # Education
 
 ```{r}
@@ -79,13 +77,13 @@ tribble(~ Title, ~ Published, ~ Journal, ~ When,
 tribble(~ What, ~ When, ~ With, ~ Where, ~ Why,
         "Research Assistant",
         "Sep 2020 - Present","Centre for International Environmental Studies", "Geneva, Switzerland",
-        "Assist with the theoretical, methodological, and empirical developments in data and analysis for across various domains of global governance in the 'PANARCHIC: Power and Networks and the Rate of Change in Institutional Complexes' project funded by the Swiss National Science Foundation
-        \\item Help with the development data infrastructure and statistical methods in R, offered as an emsemble of R packages, for the gathering, consolidating, and analyzing global governance data
-        \\item Train and manage research assistants to work with data colletion, R package development, GitHub branching, website design, and among other programmatic issues related to the project",
+        "Assist with the theoretical, methodological, and empirical developments for comparing various issue-domains of global governance in the PANARCHIC project, funded by the Swiss National Science Foundation
+        \\item Support the development of data infrastructure and statistical methods in R for gathering, consolidating, and analyzing global governance data
+        \\item Train and manage research assistants collecting data, working with GitHub, designing websites, and contributing to diverse R packages",
         "Football Head Coach", "May 2018 - Aug 2020", "Intersoccer", "Geneva, Switzerland",
         "Ensured a safe and constructive environment for participants, coaches, and parents while promoting the benefits of sports
-        \\item Supervised coaches and participants throughout activities to ensure their safety
-        \\item Communicated with coaches, children, and parents to cordinate and solve logistical issues related to transportation, venue organization, and delivery of supplies, as well as any medical emergencies and other unexpected events that arose") %>%
+        \\item Supervised coaches and participants throughout activities to assure their safety
+        \\item Communicated with coaches, children, and parents to cordinate and solve logistical issues related to transportation, venue organization, delivery of supplies, medical emergencies, and other unexpected events that arose") %>%
   detailed_entries(What, When, With, Where, Why, .protect = FALSE)
 ```
 
