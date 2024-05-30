@@ -12,6 +12,6 @@ navbar:
       href: packages.html
     - text: "CV"
       href: cv.html
-    - text: "Bike for Friends"
+    - text: "Bikes for Friends"
       href: bff.html
 output_dir: "docs"

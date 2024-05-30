@@ -1,5 +1,5 @@
 ---
-title: "Bike for Friends"
+title: "Bikes for Friends"
 output: html_document
 ---
 
