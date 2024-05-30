@@ -25,9 +25,9 @@ library(kableExtra)
 
 # Profile
 
-My research leverages advanced text analysis techniques, such as supervised machine learning, to investigate how authenticity, problem construction, and urgency appear and change over time and across settings in political discourses. I also develop, contribute, and help maintain several R packages that assist researchers dealing with multiple, overlapping, and uncertain datasets across various domains of global governance.
+My research leverages advanced text analysis techniques, such as supervised machine learning, to investigate how authenticity, problem construction, and urgency appear and change over time in political discourses. I also develop, contribute, and maintain several R packages that assist researchers conducting social network analysis and connecting global governance data across domains. I am broadly interested in issues related to political discourse and environmental politics in Latin America.
 
-\textbf{Interests:} Political Sociology, Environmental Studies, Statistical Methods, Text Analysis, Comparative Politics
+\textbf{Interests:} Environmental Sociology, Statistical Methods, Text Analysis, Comparative Politics, Social Networks
 
 # Education
 
@@ -77,13 +77,13 @@ tribble(~ Title, ~ Published, ~ Journal, ~ When,
 tribble(~ What, ~ When, ~ With, ~ Where, ~ Why,
         "Research Assistant",
         "Sep 2020 - Present","Centre for International Environmental Studies", "Geneva, Switzerland",
-        "Assist with the theoretical, methodological, and empirical developments for comparing various issue-domains of global governance in the PANARCHIC project, funded by the Swiss National Science Foundation
-        \\item Support the development of data infrastructure and statistical methods in R for gathering, consolidating, and analyzing global governance data
+        "Assist with the theoretical, methodological, and empirical developments for comparing data across various issue-domains of global governance in the PANARCHIC project, funded by the Swiss National Science Foundation
+        \\item Develop the data infrastructure and statistical methods in R for gathering, consolidating, and analyzing global governance data
         \\item Train and manage research assistants collecting data, working with GitHub, designing websites, and contributing to diverse R packages",
         "Football Head Coach", "May 2018 - Aug 2020", "Intersoccer", "Geneva, Switzerland",
         "Ensured a safe and constructive environment for participants, coaches, and parents while promoting the benefits of sports
         \\item Supervised coaches and participants throughout activities to assure their safety
-        \\item Communicated with coaches, children, and parents to cordinate and solve logistical issues related to transportation, venue organization, delivery of supplies, medical emergencies, and other unexpected events that arose") %>%
+        \\item Coordinated and solved logistical issues related to transportation, venue organization, delivery of supplies, and medical emergencies") %>%
   detailed_entries(What, When, With, Where, Why, .protect = FALSE)
 ```
 
@@ -152,7 +152,7 @@ States",
                    where = Where, why = Type, .protect = FALSE)
 ```
 
-# R Packages
+# R  Packages
 
 ```{r}
 tribble(~ Name, ~ Purpose, ~ Status,
@@ -212,7 +212,7 @@ tribble(~ Name, ~ Purpose, ~ Status,
 <!-- \end{table} -->
 <!-- ``` -->
 
-- **Languages:** Portuguese (native); English (fluent); French (proficient); Italian (intermediate); Spanish (basic) 
+- **Languages:** Portuguese (native); English (fluent); French (proficient); Italian (intermediate); Spanish (intermediate) 
 
 - **Programming languages:** R (proficient); Python (intermediate); Java (intermediate), C (basic)
 
