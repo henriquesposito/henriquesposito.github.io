@@ -29,6 +29,19 @@ below are a few of them:*
 
 $$\\[0.1cm]$$
 
+
+</style>
+<div class="row" style="text-align:center">
+[poldis](https://github.com/henriquesposito/poldis) - An R package with tools for analyzing political discourses over time
+</div>
+<div class="row" style="text-align:center">
+<a href = "https://github.com/henriquesposito/poldis">
+![](images/poldishexlogo.png)
+</a>
+</div>
+
+$$\\[0.1cm]$$
+
 </style>
 <div class="row" style="text-align:center">
 [messydates](https://globalgov.github.io/messydates/) - An R package for Extended Date/Time Format (EDTF)
@@ -84,18 +97,6 @@ $$\\[0.1cm]$$
 <div class="row" style="text-align:center">
 <a href = "https://globalgov.github.io/manypkgs/">
 ![](images/manypkgslogo.png)
-</a>
-</div>
-
-$$\\[0.1cm]$$
-
-</style>
-<div class="row" style="text-align:center">
-[poldis](https://github.com/henriquesposito/poldis) - An R package with tools for analyzing political discourses over time
-</div>
-<div class="row" style="text-align:center">
-<a href = "https://github.com/henriquesposito/poldis">
-![](images/poldishexlogo.png)
 </a>
 </div>
 
