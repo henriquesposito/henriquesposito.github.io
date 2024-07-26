@@ -52,7 +52,7 @@ tribble(~ Degree, ~ Year, ~ Institution, ~ Where, ~ Why,
 
 ```{r}
 tribble(~ Title, ~ Published, ~ Journal, ~ When,
-        "Radiating Truthiness: Authenticity performances in politics in Brazil and the United States", "Forthcoming", "Political Studies", "2024",
+        "\\href{https://journals.sagepub.com/doi/10.1177/00323217241261229}{Radiating Truthiness: Authenticity performances in politics in Brazil and the United States}", "\\href{https://journals.sagepub.com/doi/10.1177/00323217241261229}{DOI: 10.1177/00323217241261229}", "Political Studies", "July 2024",
   "\\href{https://www.tandfonline.com/doi/full/10.1080/09644016.2023.2220639}{Which Amazon Problem? Problem-constructions and Transnationalism in Brazilian Presidential Discourse since 1985 (with Livio Silva-Muller)}",
   "\\href{https://www.tandfonline.com/doi/full/10.1080/09644016.2023.2220639}{DOI: 10.1080/09644016.2023.2220639}", "Environmental Politics", "June 2023",
   "Promises Promises: An introduction to urgency analysis (with Jael Tan and James Hollway)",

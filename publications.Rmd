@@ -3,6 +3,7 @@ title: "Publications"
 output: html_document
 ---
 
+```{=html}
 <style type="text/css">
 h1 {
   font-size: 45px;
@@ -13,10 +14,16 @@ h1.title {
   text-align: center;
 }
 </style>
-
+```
 $$\\[0.1cm]$$
 
 ## Published articles
+
+$$\\[0.1cm]$$
+
+[**Sposito, Henrique. "Radiating Truthiness: Authenticity Performances in Politics in Brazil and the United States". Political Studies (2024):1-25.**](https://journals.sagepub.com/doi/10.1177/00323217241261229)
+
+Political authenticity is connected to higher levels of political trust from electorates and can influence political outcomes, but it is often overlooked as a relevant factor for electoral behavior. To date, discussions of how authenticity appears and changes in politics typically remain at the theoretical level and are rarely comparative. This article develops a framework to identify and compare how authenticity is performed in political discourses over time and across settings by politicians. To demonstrate the usefulness of the framework, this article investigates authenticity performances in 21,496 political texts of electoral debates, interviews, campaigns, and official speeches by presidents and presidential candidates in Brazil and the United States (US) since 1988. The findings indicate that authenticity is generally performed with greater frequency by presidents and presidential candidates in Brazil than in the US, though authenticity performances are not more prevalent during election years in either country.
 
 $$\\[0.1cm]$$
 
@@ -24,19 +31,7 @@ $$\\[0.1cm]$$
 
 This article investigates how the Amazon has been constructed as a problem in Brazilian presidential speeches since 1985. We develop a framework that accounts for how important transnational actors, as presidents, construct policy objects as particular problems depending on where and when they participate in politics. We create a dataset containing 6240 official speeches by all Brazilian presidents since 1985. We train a supervised machine learning algorithim to classify how Amazon related sections within speeches construct the Amazon as a problem. We find that presidents often construct the Amazon as an environmental problem when speaking far away from the region, whereas they usually construct it as problems of economic integration or social development when in the Amazon.
 
-*[Awarded Best Paper in Amazonian Studies at the Latin American Studies Association](https://lasaweb.org/en/2024-section-awards/)*
-
-$$\\[0.1cm]$$
-
-## Forthcoming
-
-$$\\[0.1cm]$$
-
-**"Radiating Truthiness": Authenticity performances in politics in Brazil and the United States** 
-
-*Political Studies*
-
-Political authenticity is connected to higher levels of political trust from electorates and can influence political outcomes, but it is often overlooked as a relevant factor for electoral behavior. To date, discussions of how authenticity appears and changes in politics typically remain at the theoretical level and are rarely comparative. This article develops a framework to identify and compare how authenticity is performed in political discourses over time and across settings by politicians. To demonstrate the usefulness of the framework, this article investigates authenticity performances in 21,496 political texts of electoral debates, interviews, campaigns, and official speeches by presidents and presidential candidates in Brazil and the United States (US) since 1988. The findings indicate that authenticity is generally performed with greater frequency by presidents and presidential candidates in Brazil than in the US, though authenticity performances are not more prevalent during election years in either country.
+[*Awarded Best Paper in Amazonian Studies at the Latin American Studies Association*](https://lasaweb.org/en/2024-section-awards/)
 
 $$\\[0.1cm]$$
 
@@ -44,9 +39,9 @@ $$\\[0.1cm]$$
 
 $$\\[0.1cm]$$
 
-**Promises Promises: An introduction to urgency analyzis (with Jael Tan and James Hollway)**
+**How urgently do politicians speak about climate change? Introducing urgency analysis (with Jael Tan and James Hollway)**
 
-Political statements are regular sources of politicians' preferences and plans. The urgency with which a politician speaks about their preferences and plans communicates important information about what they plan to pursue first, most strongly, or with most energy or commitment. Urgency is an expression of how necessary or how soon an action should be undertaken or completed in political discourse. In this paper, we examine the urgency of promises in political statements. To do so, we develop a new method, urgency analysis, to extract and rank these promises in political statements according to  politicians’ intent and time frame for action to be taken. Urgency analysis employs a combination of Natural Language Processes (NLP) and dictionary approaches to provide a localized (section and issue specific), normalized (comparable by default), and inclusive (accounts for metadata related to setting and timing) new method for the analysis of political texts. Urgency analysis is implemented for R with the [poldis](https://github.com/henriquesposito/poldis) package, making it an easy, free, and accessible tool for researchers interested in analyzing political discourses. The package includes additional tools to visualize and compare results.
+When politicians mention climate change, how urgently is it framed? Urgency is an expression of how critical or immediate a response to a problem is and thus gets to the heart of political values and preferences, rhetoric, and negotiation. We introduce a new set of text analytic tools, urgency analysis (UA), to examine how and when the urgency of political discourse around climate change has shifted, and where there is less change than expected. UA is a novel addition to the bestiary of text analytic tools that includes word frequency analysis and sentiment analysis. UA rests upon a multidimensional, weighted, and survey-validated conception of how urgency can be expressed. UA combines Natural Language Processing and dictionary approaches to provide a contextualized, comparable, and scalable new method for the analysis of political texts. We use data on high-level political speeches on climate change to demonstrate what UA offers compared to word frequency and sentiment analysis, and investigate whether urgent terms are used more as time goes on — and the average temperature goes up — or reserved for and deployed more at critical junctures. UA is implemented for R with the [poldis](https://github.com/henriquesposito/poldis) package, making it an easy, free, and accessible tool for researchers interested in analyzing political discourses.
 
 $$\\[0.1cm]$$
 
