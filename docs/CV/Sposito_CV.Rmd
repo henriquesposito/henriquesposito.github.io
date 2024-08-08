@@ -234,7 +234,8 @@ tribble(~ Name, ~ Position, ~ Contact,
         "Email: \\href{graziella.moraes@graduateinstitute.ch}{graziella.moraes@graduateinstitute.ch}",
         "\\href{https://yaninawelp.wordpress.com/about-me/}{Yanina Welp}",
         "Research Fellow
-        \\newline Albert Hirschman Centre on Democracy",
+        \\newline Albert Hirschman Centre on Democracy
+        \\newline The Graduate Institute of International and Development Studies",
         "Email: \\href{yanina.welp@graduateinstitute.ch}{yanina.welp@graduateinstitute.ch}") %>%
   detailed_entries(what = Position, why = Contact,
                    with = Name, .protect = FALSE)
