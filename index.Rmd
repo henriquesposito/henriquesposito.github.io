@@ -12,7 +12,7 @@ h1.title {
 
 $$\\[0.1cm]$$
 
-<p class="text-center"> My research leverages advanced text analysis techniques in R, such as supervised machine learning, to comparatively investigate diverse aspects of political discourses. I am currently a Post-Doctoral Researcher in Environmental Governance and Global Development at the Wyss Academy for Nature at the University of Bern. I hold a PhD in International Relations and Political Science Department from the Geneva Graduate Institute. I am broadly interested in issues related to political discourse and environmental politics in Latin America. I also develop, contribute, and maintain several R packages that assist researchers conducting social network analysis and connecting global governance data across domains. During my free time, I restore vintage bikes ;) </p>
+<p class="text-center"> My research leverages advanced text analysis techniques in R, such as supervised machine learning, to comparatively investigate diverse aspects of political discourses. I am currently a Postdoctoral Researcher in Environmental Governance and Global Development at the Wyss Academy for Nature at the University of Bern. I hold a PhD in International Relations and Political Science Department from the Geneva Graduate Institute. I am broadly interested in issues related to political discourse and environmental politics in Latin America. I also develop, contribute, and maintain several R packages that assist researchers conducting social network analysis and connecting global governance data across domains. During my free time, I restore vintage bikes ;) </p>
 
 $$\\[0.1cm]$$
 
