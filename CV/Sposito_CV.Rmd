@@ -25,7 +25,7 @@ library(kableExtra)
 
 # Profile
 
-My research leverages advanced text analysis techniques, such as supervised machine learning, to investigate how authenticity, problem construction, and urgency appear and change over time in political discourses. I also develop, contribute, and maintain several R packages that assist researchers conducting social network analysis and connecting global governance data across domains. I am broadly interested in issues related to political discourse and environmental politics in Latin America.
+My research leverages advanced text analysis techniques, such as supervised machine learning, to comparatively investigate diverse aspects of political discourses. I also develop, contribute, and maintain several R packages that assist researchers conducting social network analysis and connecting global governance data across domains. I am broadly interested in issues related to political discourse and environmental politics in Latin America.
 
 \textbf{Interests:} Environmental Sociology, Statistical Methods, Text Analysis, Comparative Politics, Social Networks
 
@@ -34,10 +34,10 @@ My research leverages advanced text analysis techniques, such as supervised mach
 ```{r}
 tribble(~ Degree, ~ Year, ~ Institution, ~ Where, ~ Why,
   "PhD in International Relations and Political Science",
-  "Sep 2019 - Sep 2024 (expected)",
+  "Sep 2019 - Oct 2024",
   "The Graduate Institute of International and Development Studies", 
   "Geneva, Switzerland",
-  "Doctoral Project: 'Authenticity, problem construction, and urgency in political discourses' \\\\ Supervised by Dr. James Hollway and Dr. Yanina Welp",
+  "Doctoral Project: 'On doing politics: Authenticity, Problem-Construction, and Urgency in Political Discourse' \\\\ Supervised by Dr. James Hollway and Dr. Yanina Welp",
   "Masters in International Relations and Political Science",
   "Sep 2017 - Aug 2019",
   "The Graduate Institute of International and Development Studies",
@@ -55,7 +55,7 @@ tribble(~ Title, ~ Published, ~ Journal, ~ When,
         "\\href{https://journals.sagepub.com/doi/10.1177/00323217241261229}{Radiating Truthiness: Authenticity performances in politics in Brazil and the United States}", "\\href{https://journals.sagepub.com/doi/10.1177/00323217241261229}{DOI: 10.1177/00323217241261229}", "Political Studies", "July 2024",
   "\\href{https://www.tandfonline.com/doi/full/10.1080/09644016.2023.2220639}{Which Amazon Problem? Problem-constructions and Transnationalism in Brazilian Presidential Discourse since 1985 (with Livio Silva-Muller)}",
   "\\href{https://www.tandfonline.com/doi/full/10.1080/09644016.2023.2220639}{DOI: 10.1080/09644016.2023.2220639}", "Environmental Politics", "June 2023",
-  "Promises Promises: An introduction to urgency analysis (with Jael Tan and James Hollway)",
+  "How urgently do leaders speak about climate change? Urgency analysis of political priorities (with Jael Tan and James Hollway)",
   "Working Paper", "", "",
   "Managing imprecise dates in R with messydates (with James Hollway)",
   "Working Paper", "", "") %>% 
@@ -66,17 +66,14 @@ tribble(~ Title, ~ Published, ~ Journal, ~ When,
 # Employment History (selected)
 
 ```{r}
-# tribble(~ What, ~ When, ~ With, ~ Where, ~ Why,
-#         "Research Assistant",
-#         "Sep 2020 - Present","Centre for International Environmental Studies", "Geneva, Switzerland",
-#         "Assist with the theoretical, methodological, and empirical developments in data and analysis for across various domains of global governance in the 'PANARCHIC: Power and Networks and the Rate of Change in Institutional Complexes' project funded by the Swiss National Science Foundation
-#         \\item Help with the development data infrastructure and statistical methods in R, offered as an emsemble of R packages, for the gathering, consolidating, and analyzing global governance data
-#         \\item Train and manage research assistants to work with data colletion, R package development, GitHub branching, website design, and among other programmatic issues related to the project") %>%
-#   detailed_entries(With, When, What, Where, Why, .protect = FALSE)
-#long version (Selected Employment History)
 tribble(~ What, ~ When, ~ With, ~ Where, ~ Why,
+        "Post-Doctoral Researcher in Environmental Governance and Global Development",
+        "Nov 2020 - Present",
+        "Wyss Academy for Nature at the University of Bern",
+        "Bern, Switzerland",
+        "Engages in the research, design, and formulation of innovative and sustainable governance solutions for people and nature",
         "Research Assistant",
-        "Sep 2020 - Present","Centre for International Environmental Studies", "Geneva, Switzerland",
+        "Sep 2020 - Aug 2024","Centre for International Environmental Studies", "Geneva, Switzerland",
         "Assist with the theoretical, methodological, and empirical developments for comparing data across various issue-domains of global governance in the PANARCHIC project, funded by the Swiss National Science Foundation
         \\item Develop the data infrastructure and statistical methods in R for gathering, consolidating, and analyzing global governance data
         \\item Train and manage research assistants collecting data, working with GitHub, designing websites, and contributing to diverse R packages",
