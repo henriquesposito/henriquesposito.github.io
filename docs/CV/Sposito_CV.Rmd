@@ -68,7 +68,7 @@ tribble(~ Title, ~ Published, ~ Journal, ~ When,
 ```{r}
 tribble(~ What, ~ When, ~ With, ~ Where, ~ Why,
         "Postdoctoral Researcher in Environmental Governance and Global Development",
-        "Nov 2020 - Present",
+        "Nov 2024 - Present",
         "Wyss Academy for Nature at the University of Bern",
         "Bern, Switzerland",
         "Engages in the research, design, and formulation of innovative and sustainable governance solutions for people and nature",
