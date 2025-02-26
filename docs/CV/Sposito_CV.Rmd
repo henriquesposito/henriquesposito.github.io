@@ -124,6 +124,11 @@ tribble(~ Title, ~ Talk, ~ Where, ~ Date, ~ Type,
 
 ```{r}
 tribble(~ Title, ~ Conference, ~ Where, ~ Date, ~ Type,
+  "Swiss Political Science Association",
+  "How urgent is climate change for our leaders? Urgency analysis of political priorities",
+  "Geneva, Switzerland",
+  "January 2025",
+  "Panel on 'Preferences' in the Development and Environment working group",
   "American Sociological Association",
   "Anti-PC and Authenticity: Authenticity performances in politics in Brazil and the United States",
   "Los Angeles, United States",
@@ -178,6 +183,15 @@ tribble(~ Name, ~ Purpose, ~ Status,
         "\\href{https://globalgov.github.io/manystates/}{Data on sovereign states}",
         "Contributor") %>%
   detailed_entries(what = Purpose, with = Name, where = Status,
+                   .protect = FALSE)
+```
+
+# Other Publications
+
+```{r}
+tribble(~ Title, ~ Published, ~ Journal, ~ When,
+        "\\href{https://globalchallenges.ch/issue/16/the-politics-in-anti-politically-correct-discourses/}{The politics in anti-politically correct discourses}", "Issue 16 - Elections, What For?", "Global Challenges", "November 2024") %>% 
+  detailed_entries(where = Journal, with = Title, what = Published, when = When,
                    .protect = FALSE)
 ```
 
