@@ -71,12 +71,14 @@ tribble(~ What, ~ When, ~ With, ~ Where, ~ Why,
         "Nov 2024 - Present",
         "Wyss Academy for Nature at the University of Bern",
         "Bern, Switzerland",
-        "Engages in the research, design, and formulation of innovative and sustainable governance solutions for people and nature",
+        "Engage in the research, design, and formulation of innovative and sustainable governance solutions for people and nature
+        \\item Lead an interdisciplinary research project mapping and analyzing environmental networks to identify new entry points for governance interventions and the impact of these interventions over time
+        \\item Evaluate the viability and effectiveness of possible solutions to pressing environmental challenges using state-of-the-art quantitative and qualitative research methods",
         "Research Assistant",
         "Sep 2020 - Aug 2024","Centre for International Environmental Studies", "Geneva, Switzerland",
-        "Assist with the theoretical, methodological, and empirical developments for comparing data across various issue-domains of global governance in the PANARCHIC project, funded by the Swiss National Science Foundation
-        \\item Develop the data infrastructure and statistical methods in R for gathering, consolidating, and analyzing global governance data
-        \\item Train and manage research assistants collecting data, working with GitHub, designing websites, and contributing to diverse R packages",
+        "Assisted with the theoretical, methodological, and empirical developments for comparing data across various issue-domains of global governance in the PANARCHIC project, funded by the Swiss National Science Foundation
+        \\item Developed the data infrastructure and statistical methods in R for gathering, consolidating, and analyzing global governance data
+        \\item Trained and managed research assistants collecting data, working with GitHub, designing websites, and contributing to diverse R packages",
         "Football Head Coach", "May 2018 - Aug 2020", "Intersoccer", "Geneva, Switzerland",
         "Ensured a safe and constructive environment for participants, coaches, and parents while promoting the benefits of sports
         \\item Supervised coaches and participants throughout activities to assure their safety
@@ -190,7 +192,8 @@ tribble(~ Name, ~ Purpose, ~ Status,
 
 ```{r}
 tribble(~ Title, ~ Published, ~ Journal, ~ When,
-        "\\href{https://globalchallenges.ch/issue/16/the-politics-in-anti-politically-correct-discourses/}{The politics in anti-politically correct discourses}", "Issue 16 - Elections, What For?", "Global Challenges", "November 2024") %>% 
+        "\\href{https://www.wyssacademy.org/_files/ugd/970651_0ecb76a65ba94cf3a1dbeaf15dfd372a.pdf}{Stakeholder Network Analysis of the Nam Tien Provincial Protection Forest in Laos}", "Wyss Academy for Nature at the University of Bern", "", "February 2025",
+        "\\href{https://globalchallenges.ch/issue/16/the-politics-in-anti-politically-correct-discourses/}{The politics in anti-politically correct discourses}", "Global Challenges, Issue 16 - Elections, What For?", "", "November 2024") %>% 
   detailed_entries(where = Journal, with = Title, what = Published, when = When,
                    .protect = FALSE)
 ```
