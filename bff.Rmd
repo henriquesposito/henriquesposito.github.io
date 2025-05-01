@@ -118,6 +118,20 @@ $$\\[0.1cm]$$
 
 $$\\[0.1cm]$$
 
+# Winey
+
+$$\\[0.1cm]$$
+
+What do you do with your wine boxes?
+
+$$\\[0.1cm]$$
+
+<center>
+![](images/winey.jpg){ width=60% height=60% }
+<center>
+
+$$\\[0.1cm]$$
+
 # Angie
 
 $$\\[0.1cm]$$
@@ -211,7 +225,7 @@ Yet another vintage Pinarello ...️ This time it is a 1994 Pinarello Stelvio fr
 $$\\[0.1cm]$$
 
 <center>
-![](images/pina3.jpeg){ width=60% height=60% }
+![](images/pina3.jpg){ width=60% height=60% }
 <center>
 
 $$\\[0.1cm]$$
@@ -240,6 +254,20 @@ $$\\[0.1cm]$$
 
 <center>
 ![](images/mazza.jpeg){ width=60% height=60% }
+<center>
+
+$$\\[0.1cm]$$
+
+# Pinky
+
+$$\\[0.1cm]$$
+
+One of those bikes you build for you cause you like the frame colors - but everyone else also likes so it gets away from you ...
+
+$$\\[0.1cm]$$
+
+<center>
+![](images/pinky.jpg){ width=60% height=60% }
 <center>
 
 $$\\[0.1cm]$$
@@ -324,4 +352,60 @@ $$\\[0.1cm]$$
 
 <center>
 ![](images/colnie.jpg){ width=60% height=60% }
+<center>
+
+$$\\[0.1cm]$$
+
+# Hugo
+
+$$\\[0.1cm]$$
+
+All original 1980s De Rosa Professional with full Campagnolo Chorus groupset (including the pedals, straps, and water bottle). This one I bought it from the original owner in great shape, it was custom built for him by a certain Hugo (de Rosa). But guess what? We are the same height, so perfect fit for me! It cleaned up great for its' age, did it not?
+
+$$\\[0.1cm]$$
+
+<center>
+![](images/de_rosa.jpg){ width=60% height=60% }
+<center>
+
+$$\\[0.1cm]$$
+
+# Cloclo
+
+$$\\[0.1cm]$$
+
+Only the best neighbors get BFF bikes! This one was built for one of our coolest neighbors from a 1980s Vitus frame and more modern components to be the perfect hybrid commuter bike (and super light), capable bike to ride around town or go on longer rides!
+
+$$\\[0.1cm]$$
+
+<center>
+![](images/cloclo.jpg){ width=60% height=60% }
+<center>
+
+$$\\[0.1cm]$$
+
+# Atalacross
+
+$$\\[0.1cm]$$
+
+I know I said I don't like gravel bikes and that they are stupid, but I take it all back! This is a 1995 custom made Atala frame built with period correct Campagnolo Chorus 9 speed groupset with a twist - a set of hand-built 650b rims (and long reach brakes). This allows me to fit 38 mm tires and have the prettiest gravel bike around - jealous?
+
+$$\\[0.1cm]$$
+
+<center>
+![](images/atalacross.jpg){ width=60% height=60% }
+<center>
+
+$$\\[0.1cm]$$
+
+My father-in-law needed (at least I felt like he needed) a new bike to go around the block and get some groceries. So using everything I had around the house, I "patchworked" him a cool new ride! Would you get your groceries on this?
+
+$$\\[0.1cm]$$
+
+# Patchwork
+
+$$\\[0.1cm]$$
+
+<center>
+![](images/patchwork.jpg){ width=60% height=60% }
 <center>
