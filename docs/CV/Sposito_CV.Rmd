@@ -108,6 +108,11 @@ tribble(~ Course, ~ Where, ~ Date, ~ Why,
 
 ```{r}
 tribble(~ Title, ~ Talk, ~ Where, ~ Date, ~ Type,
+        "Can (political) authenticity be performed?",
+  "Faculté des hautes études commerciales de l'Université de Lausanne",
+  "Lausanne, Switzerland",
+  "May 2025",
+  "Invited talk at the Department of Organizational Behavior Research Seminar",
   "How has the Brazilian Amazon been Constructed as a Problem? Presidential Speeches and Transnational Politics since 1985",
   "The Graduate Institute of International and Development Studies",
   "Geneva, Switzerland",
