@@ -39,7 +39,7 @@ $$\\[0.1cm]$$
 
 $$\\[0.1cm]$$
 
-**Urgency Analysis: Ranking Political Priorities (with Jael Tan and James Hollway)**
+**Urgency Analysis for Comparing Political Priorities (with Jael Tan and James Hollway)** - *Under review*
 
 How urgent is climate change for our leaders and where does it lie in their list of priorities? When speaking to their electorates and canvassing support, politicians employ various terms to signal the urgency of different problems and the priority of specific policies. We introduce a new text analytic tool, urgency analysis, to capture the urgency of political priorities in discourse. Urgency analysis combines natural language processing and survey validated dictionaries to provide an interpretable measure of the urgency of priorities in political texts. To demonstrate the usefulness of urgency analysis, we compare the urgency of climate change priorities by speaker and over time. Using data on US presidential and UK prime ministerial political speeches on climate change between 2009 and 2019, we find that climate change appears less urgent over time in political discourses, especially when compared employment, immigration, and health. We conclude by discussing extensions to urgency analysis and its potential applications. Urgency analysis is implemented for R with the [poldis](https://github.com/henriquesposito/poldis) package, making it an easy, free, and accessible tool for researchers interested in analyzing political discourses.
 

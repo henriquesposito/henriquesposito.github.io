@@ -19,6 +19,13 @@ $$\\[0.1cm]$$
 ## Teaching
 
 $$\\[0.1cm]$$
+**Intermediate R for Social Science Research**
+
+*Fall 2023 at The Graduate Institute of International and Development Studies (IHEID)*
+
+This course offers masters' students an applied overview of various research methods using R. Students learn how to write, cite, and include table and figures using R Markdown; how to select and carry-on different types of statistical modeling; how to work with unsupervised approaches for text analysis; and how to code, visualize, and model survey data.
+
+$$\\[0.1cm]$$
 
 **Fundamentals of R (co-lecturered with Livio Silva-Muller)** 
 
@@ -28,21 +35,17 @@ This course offers masters' students a hands on introduction to data science usi
 
 $$\\[0.1cm]$$
 
-**Intermediate R for Social Science Research**
-
-*Fall 2023 at The Graduate Institute of International and Development Studies (IHEID)*
-
-This course offers masters' students an applied overview of various research methods using R. Students learn how to write, cite, and include table and figures using R Markdown; how to select and carry-on different types of statistical modeling; how to work with unsupervised approaches for text analysis; and how to code, visualize, and model survey data.
-
-$$\\[0.1cm]$$
-
 ## Invited talks
 
 $$\\[0.1cm]$$
 
+**Can (political) authenticity be performed?**
+
+Invited talk at the Department of Organizational Behavior Research Seminar at the Faculté des hautes études commerciales de l'Université de Lausanne, Lausanne, Switzerland, on 8 May 2025
+
 **Anti-Political Correctness and Authenticity: Authenticity performances in politics in Brazil and the United States** 
 
-Lecture for the Research Group on Elections and Political Citizenship (GREC) at the Université de Lausanne, Lausanne, Switzerland, on 31 March 2022.
+Invited talk at the Research Group on Elections and Political Citizenship (GREC) at the Université de Lausanne, Lausanne, Switzerland, on 31 March 2022.
 
 **How has the Brazilian Amazon been Constructed as a Problem? Presidential Speeches and Transnational Politics since 1985**
 
