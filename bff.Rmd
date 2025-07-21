@@ -99,7 +99,7 @@ ANGIE is a mid 1980s Tommasini Super Prestige from my personal colletion that ri
 $$\\[0.1cm]$$
 
 <center>
-![](images/tomma.jpg){ width=60% height=60% }
+![](images/angie.jpg){ width=60% height=60% }
 <center>
 
 $$\\[0.1cm]$$
@@ -309,7 +309,7 @@ All original 1980s De Rosa Professional with a complete Campagnolo Chorus groups
 $$\\[0.1cm]$$
 
 <center>
-![](images/de_rosa.jpg){ width=60% height=60% }
+![](images/hugo.jpg){ width=60% height=60% }
 <center>
 
 $$\\[0.1cm]$$
