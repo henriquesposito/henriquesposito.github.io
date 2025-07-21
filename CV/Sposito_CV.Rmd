@@ -27,7 +27,7 @@ library(kableExtra)
 
 My research leverages advanced text analysis techniques, such as supervised machine learning, to comparatively investigate diverse aspects of political discourses. I also develop, contribute, and maintain several R packages that assist researchers conducting social network analysis and connecting global governance data across domains. I am broadly interested in issues related to political discourse and environmental politics in Latin America.
 
-\textbf{Interests:} Environmental Sociology, Statistical Methods, Text Analysis, Comparative Politics, Social Networks
+\textbf{Interests:} Political Sociology, Environmental Politics, Text Analysis, Comparative Politics, Social Networks
 
 # Education
 
@@ -60,10 +60,14 @@ tribble(~ Title, ~ Published, ~ Journal, ~ When,
   "Managing imprecise dates in R with messydates (with James Hollway)",
   "Working Paper", "", "",
   "Is peace good for the environment? A comparative approach to post-conflict environmental outcomes (with Stefano Jud and Quynh Nguyen)",
-  "Working Paper", "", "",) %>% 
+  "Working Paper", "", "",
+  "Public Acceptance of Environmental Restrictions in Non-Democratic Regimes (with Stefano Jud and Quynh Nguyen)",
+  "Working Paper", "", "") %>% 
   detailed_entries(where = Journal, with = Title, what = Published, when = When,
                    .protect = FALSE)
 ```
+
+\newpage
 
 # Employment History (selected)
 
@@ -211,22 +215,6 @@ tribble(~ Title, ~ Published, ~ Journal, ~ When,
 - Conference USA Academic Honor Medal 2015
 
 # Skills
-
-<!-- ```{=latex} -->
-<!-- \begin{table}[tbh] -->
-<!-- \centering -->
-<!-- \begin{tabular}{cccll} -->
-<!-- \textbf{Languages} & \textbf{Programming languages} & \textbf{Markup languages} & \textit{} & \textit{} \\ -->
-<!-- \multicolumn{1}{l}{}   & \multicolumn{1}{l}{}  & \multicolumn{1}{l}{}  &  &  \\ -->
-<!-- Portuguese (Native)    & R (Proficient)        & Markdown (Proficient) &  &  \\ -->
-<!-- English (Fluent)       & Python (Intermediate) & LaTeX (Advanced)      &  &  \\ -->
-<!-- French (Proficient)    & C (Basic)             & HTML (Advanced)       &  &  \\ -->
-<!-- Italian (Intermediate) & Bash (Basic)          & CSS (Intermediate)    &  &  \\ -->
-<!-- Spanish (Basic)        & Java (Basic)          & XML (Basic)           &  &  \\ -->
-<!--                        &                       &                       &  &  -->
-<!-- \end{tabular} -->
-<!-- \end{table} -->
-<!-- ``` -->
 
 - **Languages:** Portuguese (native); English (fluent); French (proficient); Italian (intermediate); Spanish (intermediate) 
 

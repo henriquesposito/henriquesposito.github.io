@@ -30,7 +30,7 @@ $$\\[0.1cm]$$
 
 $$\\[0.1cm]$$
 
-*Once the pandemic hits, things started to get more serious (since there was nothing else to do).*
+Once the pandemic hit, things started to get more serious (since there was nothing else to do).
 
 $$\\[0.1cm]$$
 
@@ -38,26 +38,12 @@ $$\\[0.1cm]$$
 
 $$\\[0.1cm]$$
 
-This is a junkyard build, meaning I found almost all the parts used in the bicycle junkyard of Geneva. It is a Peugeot frame from the late 1970s turned into a single-speed bike. It is a mix and match of parts and colors, but it does look good. This bike is super fast (because of the high gear ratio) and it feels like a real vintage track back when riding it.
+This is a junkyard build - I found almost all the parts used in the bicycle junkyard of Geneva. It is a Peugeot frame from the late 1970s turned into a single-speed bike. It is a mix and match of parts and colors, but it does look good. This bike is super fast (because of the high gear ratio) and it feels like a real vintage track back when riding it.
 
 $$\\[0.1cm]$$
 
 <center>
 ![](images/frank.jpg){ width=60% height=60% }
-<center>
-
-$$\\[0.1cm]$$
-
-# Olmost
-
-$$\\[0.1cm]$$
-
-This is a late 1980s Olmo Grand Prix frame turned into a classy single speed bike. This bike has a smaller crank plate and wider tires than what I usually put on my bikes, but this makes it a perfect city bike!
-
-$$\\[0.1cm]$$
-
-<center>
-![](images/livio.jpg){ width=60% height=60% }
 <center>
 
 $$\\[0.1cm]$$
@@ -72,20 +58,6 @@ $$\\[0.1cm]$$
 
 <center>
 ![](images/pina1.jpeg){ width=60% height=60% }
-<center>
-
-$$\\[0.1cm]$$
-
-# Grinch
-
-$$\\[0.1cm]$$
-
-The GRINCH is ready to roll. This is an early 1980s Mercier frame found at in the corner of my favorite place in Geneva, the bike junkyard. It was a little beaten up, but it had to be saved. So, I transformed it into a ‘rat bike’ perfect for commuting fast around town.
-
-$$\\[0.1cm]$$
-
-<center>
-![](images/mercier.jpg){ width=60% height=60% }
 <center>
 
 $$\\[0.1cm]$$
@@ -136,7 +108,7 @@ $$\\[0.1cm]$$
 
 $$\\[0.1cm]$$
 
-I got this 1990 Pinarello Asolo in Italy this summer and it was in bad shape... So I took it completely apart, cleaned, and reassembled it with the original Campagnolo Athena groupset, Mavic MA40 wheels, and other goodies including a beautiful Velo Orange seat. This bike has many scars, but they are just part of its history and beauty. And, at the end of the day, it is another vintage Pinarello that is back on the streets for many more rides.
+I got this 1990 Pinarello Asolo in Italy one summer and it was in bad shape... So I took it completely apart, cleaned, and reassembled it with the original Campagnolo Athena groupset, Mavic MA40 wheels, and other goodies including a beautiful Velo Orange seat. This bike has many scars, but they are just part of its history and beauty. And, at the end of the day, it is another vintage Pinarello that is back on the streets for many more rides.
 
 $$\\[0.1cm]$$
 
@@ -150,7 +122,7 @@ $$\\[0.1cm]$$
 
 $$\\[0.1cm]$$
 
-I would like to proudly introduce to you Cadi! Cadi is an early 1990s Casati Monza SLX frame I had for awhile now. I finally found a barely used Shimano Nexus 8 speed internal gear back wheel (yes it has gears) and decided to build a gorgeous city cruiser. The result is this awesome bike that rides like a brand new Cadillac (hence the name).
+Cadi is an early 1990s Casati Monza SLX frame I had for awhile now. I finally found a barely used Shimano Nexus 8 speed internal gear back wheel (yes it has gears) and decided to build a gorgeous city cruiser. The result is this awesome bike that rides like a brand new Cadillac (hence the name).
 
 $$\\[0.1cm]$$
 
@@ -206,7 +178,7 @@ $$\\[0.1cm]$$
 
 $$\\[0.1cm]$$
 
-Yet another vintage Pinarello ...️ This time it is a 1994 Pinarello Stelvio frame assembled with 2008 Campagnolo Centaur Groupset and other goodies, just an awesome ride! I will let the pictures do the rest of the talking ...
+Yet another vintage Pinarello ...️ This time it is a 1994 Pinarello Stelvio frame assembled with 2008 Campagnolo Centaur Groupset and other goodies, just an awesome ride! I will let the picture do the rest of the talking ...
 
 $$\\[0.1cm]$$
 
@@ -234,7 +206,7 @@ $$\\[0.1cm]$$
 
 $$\\[0.1cm]$$
 
-Very cool new project ready for spring. It all started with a 1980s Mazza race frame (Geneva based bike builder) to be transformed into a city friendly commuter bike️. This beauty got straight handlebars, thumb shifters, and awesome red tires. To top it all off, the handlebar and seat post have integrated lights on them.
+It all started with a 1980s Mazza race frame (Geneva based bike builder) to be transformed into a city friendly commuter bike️. This beauty got straight handlebars, thumb shifters, and awesome red tires. To top it all off, the handlebar and seat post have integrated lights on them.
 
 $$\\[0.1cm]$$
 
@@ -244,25 +216,11 @@ $$\\[0.1cm]$$
 
 $$\\[0.1cm]$$
 
-# Pinky
-
-$$\\[0.1cm]$$
-
-One of those bikes you build for yourself because you like the frame colors but everyone else also likes so it gets away from you ...
-
-$$\\[0.1cm]$$
-
-<center>
-![](images/pinky.jpg){ width=60% height=60% }
-<center>
-
-$$\\[0.1cm]$$
-
 # Layla
 
 $$\\[0.1cm]$$
 
-Meet Layla, the newest vintage BFF out there. Layla was built to be an all around touring bike, ready for the daily commute and the weekend road trip. This beautiful ride was assembled from a 1984 Benotto frame and was equipped with a vintage Shimano 600 groupset️. To top it all off, Layla comes with super cool bar end shifters and a versatile wine crate.
+Layla is the newest vintage BFF out there. Layla was built to be an all around touring bike, ready for the daily commute and the weekend road trip. This beautiful ride was assembled from a 1984 Benotto frame and was equipped with a vintage Shimano 600 groupset️. To top it all off, Layla comes with super cool bar end shifters and a versatile wine crate.
 
 $$\\[0.1cm]$$
 
@@ -318,7 +276,7 @@ $$\\[0.1cm]$$
 
 $$\\[0.1cm]$$
 
-My dad’s first ever bike. This project started with 1970/1980s Mazza frame, made in Geneva. The old paint off was stripped for a bare metal finish. The bike was assembled with a period correct Shimano 600 groupset - with a few old school mods in handlebars and shifters for comfort.
+My dad’s first ever bike. This project started with 1970/1980s Mazza frame, made in Geneva. The old paint off was stripped for a bare metal finish. The bike was assembled with a period correct Shimano 600 groupset - with a few old school modifications, like a mustache handlebar and adapted shifters, for comfort.
 
 $$\\[0.1cm]$$
 
@@ -388,7 +346,7 @@ $$\\[0.1cm]$$
 
 $$\\[0.1cm]$$
 
-My father-in-law needed (at least I felt like he needed) a new bike to go around the block and get some groceries. So using everything I had around the house, I "patchworked" him a cool new ride! Would you get your groceries on this?
+My father-in-law needed a new bike (or at least I felt like he needed one) to go around the block and get some groceries. So using everything I had around the house, I "patchworked" him a cool new ride! Would you get your groceries on this?
 
 $$\\[0.1cm]$$
 
