@@ -67,8 +67,6 @@ tribble(~ Title, ~ Published, ~ Journal, ~ When,
                    .protect = FALSE)
 ```
 
-\newpage
-
 # Employment History (selected)
 
 ```{r}
