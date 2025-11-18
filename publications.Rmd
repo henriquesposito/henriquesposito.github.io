@@ -21,13 +21,13 @@ $$\\[0.1cm]$$
 
 $$\\[0.1cm]$$
 
-[**Sposito, Henrique. "Radiating Truthiness: Authenticity Performances in Politics in Brazil and the United States." Political Studies (2024): 1-25.**](https://journals.sagepub.com/doi/10.1177/00323217241261229)
+[**Sposito, Henrique. "Radiating Truthiness: Authenticity Performances in Politics in Brazil and the United States." Political Studies (2025)**](https://journals.sagepub.com/doi/10.1177/00323217241261229)
 
 Political authenticity is connected to higher levels of political trust from electorates and can influence political outcomes, but it is often overlooked as a relevant factor for electoral behavior. To date, discussions of how authenticity appears and changes in politics typically remain at the theoretical level and are rarely comparative. This article develops a framework to identify and compare how authenticity is performed in political discourses over time and across settings by politicians. To demonstrate the usefulness of the framework, this article investigates authenticity performances in 21,496 political texts of electoral debates, interviews, campaigns, and official speeches by presidents and presidential candidates in Brazil and the United States (US) since 1988. The findings indicate that authenticity is generally performed with greater frequency by presidents and presidential candidates in Brazil than in the US, though authenticity performances are not more prevalent during election years in either country.
 
 $$\\[0.1cm]$$
 
-[**Silva-Muller, Livio, and Henrique Sposito. "Which Amazon Problem? Problem-constructions and Transnationalism in Brazilian Presidential Discourse since 1985." Environmental Politics (2023): 1-24.**](https://www.tandfonline.com/doi/full/10.1080/09644016.2023.2220639)
+[**Silva-Muller, Livio, and Henrique Sposito. "Which Amazon Problem? Problem-constructions and Transnationalism in Brazilian Presidential Discourse since 1985." Environmental Politics (2024)**](https://www.tandfonline.com/doi/full/10.1080/09644016.2023.2220639)
 
 This article investigates how the Amazon has been constructed as a problem in Brazilian presidential speeches since 1985. We develop a framework that accounts for how important transnational actors, as presidents, construct policy objects as particular problems depending on where and when they participate in politics. We create a dataset containing 6240 official speeches by all Brazilian presidents since 1985. We train a supervised machine learning algorithim to classify how Amazon related sections within speeches construct the Amazon as a problem. We find that presidents often construct the Amazon as an environmental problem when speaking far away from the region, whereas they usually construct it as problems of economic integration or social development when in the Amazon.
 
@@ -39,7 +39,7 @@ $$\\[0.1cm]$$
 
 $$\\[0.1cm]$$
 
-**Public Acceptance of Environmental Restrictions in Non-Democratic Regimes (with Stefano Jud and Quynh Nguyen)**
+**Public Acceptance of Environmental Restrictions in Non-Democratic Regimes (with Stefano Jud and Quynh Nguyen)** - *Under review*
 
 As environmental crises intensify, governments may enact policies that restrict individual freedoms. This study asks when citizens are willing to accept such constraints, especially in non-democratic regimes. Drawing on survey experiments with 17,793 respondents across 12 countries, we find that effectiveness, low costs, and citizen participation drive public support, while threat-based justifications have limited impact. Even in authoritarian contexts, restrictive environmental policies are not accepted unconditionally. These findings challenge the notion that autocracies can easily impose green mandates and underscore the importance of legitimacy, fairness, and inclusiveness in environmental governance, regardless of regime type.
 
@@ -48,10 +48,6 @@ $$\\[0.1cm]$$
 **How urgent are your priorities? Comparing political priorities in discourse (with Jael Tan and James Hollway)** - *Under review*
 
 How can we tell which problems or policies political leaders consider urgent? While politicians regularly signal urgency to their audiences when speaking to their electorates or canvassing support, existing computational methods for analyzing text at scale were developed to identify topic frequency or discursive tone, and not which actions the speaker claims to prioritize. We introduce a new text analytic tool, urgency analysis, that combines natural language processing and survey validated dictionaries to provide an interpretable measure of the urgency of priorities in political texts. To demonstrate the usefulness of urgency analysis, we compare the urgency of climate change priorities by speaker and over time. Using data on US presidential and UK prime ministerial political speeches between 2009 and 2019, we find that climate change appears less urgent over time in political discourses, especially when compared to employment, immigration, and health. We conclude by discussing extensions to urgency analysis and its potential applications. Urgency analysis is implemented for R with the [poldis](https://github.com/henriquesposito/poldis) package, making it an easy, free, and accessible tool for researchers interested in analyzing political discourses.
-
-$$\\[0.1cm]$$
-
-
 
 $$\\[0.1cm]$$
 
